@@ -1,0 +1,33 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+
+is_EU_member = {
+	OR = {
+		has_idea = idea_eu_member
+		has_dynamic_modifier = { modifier = eu_member_modifier }
+	}
+	
+}
+is_EU_major = {
+	OR = {
+		tag = ENG
+		tag = FRA
+		tag = GER
+		tag = ITA
+	}
+}
+is_mercosur_member = {
+	has_idea = idea_mercosur_member
+}

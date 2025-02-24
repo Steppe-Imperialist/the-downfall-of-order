@@ -1,0 +1,31 @@
+
+state={
+	id=1360
+	name="STATE_1360"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = BLR
+		add_core_of = BLR
+		victory_points = {
+			6232 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		6232 6556 9554 11453 
+	}
+	manpower=774632
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+	local_supplies=0.000
+}

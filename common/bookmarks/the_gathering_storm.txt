@@ -1,0 +1,289 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2018.10.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "USA"
+		default = yes
+		
+		"PRC"={
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = communist
+			ideas={
+				PRC_rural_poverty_strike
+				idea_united_nations_security_council_member
+			}
+			focuses = {
+				PRC_dorje_s_escape
+				PRC_the_centre
+				PRC_the_right_opposition
+			}
+		}
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+				idea_eu_member
+				idea_united_nations_security_council_member
+			}
+			focuses = {
+				FRA_egalite
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+				idea_GER_german_legacy
+				idea_eu_member
+				GER_bundeswehr_shortcomings
+			}
+			focuses = {
+				GER_polish_workforce_for_germany
+			}
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+				idea_JAP_emperor_akihito
+				japanese_article_9
+				JAP_afterglow_of_sun
+			}
+			focuses = {
+				JAP_culture_lose_of_korea
+				JAP_privatization_of_postal_services
+				JAP_world_revolution
+			}
+		}
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = reactionary
+			ideas = {
+				RUS_corrupt_oligarchy
+				idea_united_nations_security_council_member
+			}
+			focuses = {
+				RUS_focus_on_ukraine
+				RUS_restore_the_union
+				RUS_EU_membership
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+				ENG_queen_elizabeth_2
+				idea_eu_member
+				idea_united_nations_security_council_member
+			}
+			focuses = {
+				ENG_brexit_referendum
+				ENG_abolish_the_monarchy
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+				idea_USA_political_establishment
+				american_militarism
+				idea_united_nations_security_council_member
+			}
+			focuses = {
+				USA_universal_healthcare
+				USA_abolish_the_electoral_college
+				USA_flames_of_revolution
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		"DEN"={
+			minor = yes
+			history = "DEN_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+				idea_eu_member
+			}
+			focuses = {
+				DEN_north_sea_oil
+				DEN_urban_improvement_fund
+				DEN_venerate_queen
+			}
+		}
+		"ETH"={
+			minor = yes
+			history = "ETH_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+			ideas = {
+				african_union_member
+			}
+			focuses = {
+				ETH_invite_zera_yacob
+				ETH_african_alliance_initiative
+				ETH_declare_mengistu_innocent
+			}
+		}
+		"FIN"={
+			minor = yes
+			history = "FIN_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+				idea_eu_member
+				finnish_neutrality
+			}
+			focuses = {
+				FIN_finlands_main_ally
+				FIN_david_against_goliath
+			}
+		}
+		"ICE"={
+			minor = yes
+			history = "ICE_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+				ICE_approach_the_eu
+				ICE_the_militarization_of_iceland
+				ICE_leave_nato
+			}
+		}
+		"ITA"={
+			minor = yes
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+			ideas = {
+				idea_eu_member
+				ITA_mafia
+				ITA_corruption
+			}
+			focuses = {
+				ITA_reestablish_rome
+				ITA_italeave
+				ITA_anti_mafia_measures
+			}
+		}
+		"NOR"={
+			minor = yes
+			history = "NOR_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+				NOR_join_the_eu
+				NOR_support_haakons_marriage
+				NOR_the_union_of_sweden_norway
+			}
+		}
+		"SWE"={
+			minor = yes
+			history = "SWE_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+				idea_eu_member
+			}
+			focuses = {
+				SWE_northern_nationalism
+				SWE_the_emperor_of_sweden
+			}
+		}
+		"SWI"={
+			minor = yes
+			history = "SWI_GATHERING_STORM_DESC"
+			ideology = reactionary
+			ideas = {
+				swiss_political_system
+				neutrality_idea
+			}
+			focuses = {
+				SWI_join_the_united_nations
+				SWI_declare_the_end_of_swiss_neutrality
+				SWI_the_end_of_switzerland
+			}
+		}
+		"KOR"={
+			minor = yes
+			history = "KOR_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+			KOR_cultural_isolation_crisis
+			kor_descendant_of_the_Imperial_army_1
+			KOR_danilminjok
+			}
+			focuses = {
+				kor_to_see_the_future
+				kor_prosperous_korean_peninsula
+				kor_remove_native_japs
+			}
+		}
+		"PRK"={
+			minor = yes
+			history = "PRK_GATHERING_STORM_DESC"
+			ideology = nationalist
+			ideas = {
+				PRK_tiny_economic
+				PRK_low_legitimacy_1
+				PRK_traitor_to_the_revolution
+			}
+			focuses = {
+				prk_juche_nuclear
+				prk_end_of_juche
+				prk_limited_culture_opening
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+				CHI_the_lone_wolf
+				CHI_formosa_lily_2
+				CHI_DPP_popular_support_1
+			}
+			focuses = {
+				CHI_action_now
+				CHI_coalition_with_lee_teng_hui
+				CHI_taiwan_the_formosa
+			}
+		}
+		"MON"={
+			minor = yes
+			history = "MON_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+				MON_who_killed_zorig
+				MON_1999_zud_1
+			}
+			focuses = {
+				MON_the_triumph_of_socialism
+				MON_victory_dedicated_to_zorig
+				MON_stop_the_collapse_of_herding_community
+			}
+		}
+		"WAS"={
+			minor = yes
+			history = "WAS_GATHERING_STORM_DESC"
+			ideology = communist
+			ideas = {
+				WAS_chinese_help
+				WAS_embrace_the_opium_trade
+				WAS_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				WAS_de_facto_independent_state
+				WAS_myanmar_unification_conference
+				WAS_xunzheng
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

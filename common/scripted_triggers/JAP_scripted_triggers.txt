@@ -1,0 +1,156 @@
+
+JAP_propaganda_poster_slot_available = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_propaganda_poster_slot_available_tt
+		OR = {
+			check_variable = { JAP_poster_left_icon_frame = JAP_propaganda_empty_slot_index }
+			check_variable = { JAP_poster_center_icon_frame = JAP_propaganda_empty_slot_index }
+			check_variable = { JAP_poster_right_icon_frame = JAP_propaganda_empty_slot_index }
+		}
+	}
+}
+
+JAP_need_JieitaiPopularity_50 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_JieitaiPopularity_50_tt
+		check_variable = { JieitaiPopularity > 50 }
+	}
+}
+
+JAP_need_JieitaiPopularity_70 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_JieitaiPopularity_70_tt
+		check_variable = { JieitaiPopularity > 70 }
+	}
+}
+
+JAP_need_JieitaiDiscipline_50 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_JieitaiDiscipline_50_tt
+		check_variable = { JieitaiDiscipline > 50 }
+	}
+}
+
+JAP_need_JieitaiDiscipline_70 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_JieitaiDiscipline_70_tt
+		check_variable = { JieitaiDiscipline > 70 }
+	}
+}
+
+JAP_need_kakushin_government = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_kakushin_government_tt
+		OR = {
+			has_government = social_liberal
+			has_government = social_democrat
+			has_government = progressive
+			has_government = democratic_socialist
+			has_government = communist
+		}
+	}
+}
+
+JAP_need_hoshu_government = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_hoshu_government_tt
+		AND = {
+			NOT = { has_government = social_liberal }
+			NOT = { has_government = social_democrat }
+			NOT = { has_government = progressive }
+			NOT = { has_government = democratic_socialist }
+			NOT = { has_government = communist }
+		}
+	}
+}
+
+JAP_is_historical_ai = {
+	OR = {
+		AND = {
+			is_historical_focus_on = yes
+			has_game_rule = {
+				rule = JAP_ai_behavior
+				option = DEFAULT
+			}	
+		}
+		has_country_flag = JAP_AI_RANDOM_NEUTRALITY_HISTORICAL
+		has_game_rule = {
+			rule = JAP_ai_behavior
+			option = DEMOCRATIC_JAPAN
+		}
+	}
+}
+
+JAP_no_okinawa = {
+	if = {
+		limit = {
+			has_game_rule = {
+				rule = allow_release_nations
+				option = FREE
+			}
+			OR = { 
+				original_tag = JAP
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = RULE_ALLOW_RELEASE_NATIONS_KURDISTAN_TOOLTIP
+			NOT = { FROM = { tag = RYU } }
+		}
+	}
+}
+
+JAP_need_hoshu_honryu = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_hoshu_honryu_tt
+		has_country_leader_with_trait = jiminto_main
+	}
+}
+
+JAP_need_hoshu_boryu = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_hoshu_boryu_tt
+		has_country_leader_with_trait = jiminto_minor
+	}
+}
+
+JAP_need_debt_50 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_debt_50_tt
+		check_variable = { JAP_debt_var < 50 }
+	}
+}
+
+JAP_need_debt_20 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_debt_20_tt
+		check_variable = { JAP_debt_var < 20 }
+	}
+}
+
+JAP_need_deflation_50 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_deflation_50_tt
+		check_variable = { JAP_deflation_var < 50 }
+	}
+}
+
+JAP_need_deflation_20 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_deflation_20_tt
+		check_variable = { JAP_deflation_var < 20 }
+	}
+}
+
+JAP_need_debt_70 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_debt_70_tt
+		check_variable = { JAP_debt_var < 71 }
+	}
+}
+
+JAP_need_deflation_70 = {
+	custom_trigger_tooltip = {
+		tooltip = JAP_need_deflation_70_tt
+		check_variable = { JAP_deflation_var < 71 }
+	}
+}

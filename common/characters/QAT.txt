@@ -1,0 +1,15 @@
+characters={
+	QAT_hamad_bin_khalifa={
+		#name="Hamad bin Khalifa"
+		portraits={
+			civilian={
+				large="gfx/leaders/QAT/Hamad.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

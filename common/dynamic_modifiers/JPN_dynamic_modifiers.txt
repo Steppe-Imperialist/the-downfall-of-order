@@ -1,0 +1,193 @@
+
+dynamic_okinawa_separatism = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_jap_kariyushi_flag
+	
+	compliance_growth = -0.02
+	resistance_growth = 0.03
+	resistance_target = 0.1
+	resistance_decay = -0.1
+	#state_resources_factor = -0.15
+}
+
+dynamic_angry_okinawaese = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_jap_kariyushi_flag
+	
+	compliance_growth = -0.05
+	resistance_growth = 0.05
+	resistance_target = 0.20
+	resistance_decay = -0.20
+	#state_resources_factor = -0.33
+	disable_strategic_redeployment = 1
+}
+
+dynamic_massive_okinawa_riots = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_jap_kariyushi_flag
+	
+	compliance_growth = -0.1
+	resistance_growth = 0.07
+	resistance_target = 0.35
+	resistance_decay = -0.25
+	#state_resources_factor = -0.33
+	disable_strategic_redeployment = 1
+}
+
+dynamic_electricity_problem = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_jap_electricity_problem
+	
+	state_production_speed_buildings_factor = -0.05
+}
+
+dynamic_zainichi_problem = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_jap_zainichi_korean
+	
+	state_production_speed_buildings_factor = -0.05
+	recruitable_population_factor = -0.03
+}
+
+dynamic_mindan = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_jap_zainichi_korean
+	
+	state_production_speed_buildings_factor = 0.05
+	local_building_slots_factor = 0.2
+}
+
+dynamic_chosen_soren = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_jap_zainichi_korean
+	
+	state_production_speed_buildings_factor = 0.15
+	state_resources_factor = 0.1
+}
+
+dynamic_zainichi_harmony = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_jap_zainichi_korean
+	
+	state_production_speed_buildings_factor = 0.05
+	recruitable_population_factor = 0.15
+}
+
+### Idea
+
+JAP_popularity_discipline_dynamic_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_JAP_jieitai
+	
+	#custom_modifier_tooltip = JAP_popularity_discipline_dynamic_modifier_tt
+	
+	#Popular
+	conscription_factor = JAP_p_d_conscription_factor_modifier
+	mobilization_speed = JAP_p_d_mobilization_speed_modifier
+	defensive_war_stability_factor = JAP_p_d_defensive_war_stability_factor_modifier
+	
+	#Discipline
+	special_forces_cap = JAP_p_d_special_forces_cap_modifier
+	army_org_factor = JAP_p_d_army_org_factor_modifier
+	army_org_regain = JAP_p_d_army_org_regain_modifier
+}
+
+high_approval_rating = {
+	recruitable_population_factor = 0.15
+	state_resources_factor = 0.05
+}
+
+very_high_approval_rating = {
+	recruitable_population_factor = 0.2
+	state_resources_factor = 0.15
+}
+
+low_approval_rating = {
+	state_resources_factor = -0.15
+}
+
+very_low_approval_rating = {
+	recruitable_population_factor = -0.15
+	state_resources_factor = -0.25
+}
+
+JAP_state_decision_support_industry_token = {
+	enable = { always = yes }
+
+	icon = GFX_industry_state
+}
+
+### Idea
+
+JAP_softpower_dynamic_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_JAP_softpower
+	
+	#custom_modifier_tooltip = JAP_softpower_dynamic_modifier_tt
+
+	political_power_factor = JAP_softpower_political_power_dynamic_modifier
+	civilian_intel_factor = JAP_softpower_civilian_intel_factor_dynamic_modifier
+	production_speed_rail_way_factor = JAP_softpower_production_speed_rail_way_factor_dynamic_modifier
+	production_speed_supply_node_factor = JAP_softpower_production_speed_supply_node_factor_dynamic_modifier
+	
+	compliance_growth = JAP_softpower_compliance_growth_dynamic_modifier
+	resistance_damage_to_garrison = JAP_softpower_resistance_damage_to_garrison_dynamic_modifier
+	resistance_activity = JAP_softpower_resistance_activity_dynamic_modifier
+	resistance_growth = JAP_softpower_resistance_growth_dynamic_modifier
+	resistance_target = JAP_softpower_resistance_target_dynamic_modifier
+	
+	industrial_concern_cost_factor = JAP_softpower_industrial_concern_cost_factor_dynamic_modifier
+	
+	non_core_manpower = JAP_softpower_non_core_manpower_dynamic_modifier
+	
+	research_speed_factor = JAP_softpower_research_speed_factor_dynamic_modifier
+	required_garrison_factor = JAP_softpower_required_garrison_factor_dynamic_modifier
+	
+	puppet_cost_factor = JAP_softpower_puppet_cost_factor_dynamic_modifier
+	subjects_autonomy_gain = JAP_softpower_subjects_autonomy_gain_dynamic_modifier
+	opinion_gain_monthly_factor = JAP_softpower_opinion_gain_monthly_factor_dynamic_modifier
+	annex_cost_factor = JAP_softpower_annex_cost_factor_dynamic_modifier
+	intel_network_gain_factor = JAP_softpower_intel_network_gain_factor_dynamic_modifier
+	guarantee_tension = JAP_softpower_guarantee_tension_dynamic_modifier
+	offensive_war_stability_factor = JAP_softpower_offensive_war_stability_factor_dynamic_modifier
+}
+
+JAP_DPJ_national_reform_dynamic_modifier = { 
+	enable = { always = yes }
+	icon = GFX_idea_JAP_reform_government
+	
+	industrial_capacity_factory = JAP_DPJ_national_reform_industrial_capacity_factory_dynamic_modifier
+	production_lack_of_resource_penalty_factor = JAP_DPJ_national_reform_production_lack_of_resource_penalty_factor_dynamic_modifier#-0.01% (extra -0.01% per puppet - max -0.1%)
+	industry_repair_factor = JAP_DPJ_national_reform_dynamic_modifier_repair_facto_dynamic_modifierr # +10% -> Victory Over Devastation
+	consumer_goods_factor = JAP_DPJ_national_reform_dynamic_modifier_consumer_goods_factor_dynamic_modifier #-2%-> Victory Over Devastation
+	civilian_intel_factor = JAP_DPJ_national_reform_dynamic_modifier_civilian_intel_factor_dynamic_modifier
+	surrender_limit = JAP_DPJ_national_reform_surrender_limit_dynamic_modifier
+	monthly_population = JAP_DPJ_national_reform_monthly_population_dynamic_modifier
+	political_advisor_cost_factor = JAP_DPJ_national_reform_political_advisor_cost_factor_dynamic_modifier
+	unit_leader_as_advisor_cp_cost_factor = JAP_DPJ_national_reform_unit_leader_as_advisor_cp_cost_factor_dynamic_modifier
+}
+
+JAP_LDP_national_reform_dynamic_modifier = { 
+	enable = { always = yes }
+	icon = GFX_idea_JAP_reform_government
+	
+	industrial_capacity_factory = JAP_LDP_national_reform_industrial_capacity_factory_dynamic_modifier
+	production_lack_of_resource_penalty_factor = JAP_LDP_national_reform_production_lack_of_resource_penalty_factor_dynamic_modifier#-0.01% (extra -0.01% per puppet - max -0.1%)
+	industry_repair_factor = JAP_LDP_national_reform_dynamic_modifier_repair_facto_dynamic_modifierr # +10% -> Victory Over Devastation
+	consumer_goods_factor = JAP_LDP_national_reform_dynamic_modifier_consumer_goods_factor_dynamic_modifier #-2%-> Victory Over Devastation
+	civilian_intel_factor = JAP_LDP_national_reform_dynamic_modifier_civilian_intel_factor_dynamic_modifier
+	surrender_limit = JAP_LDP_national_reform_surrender_limit_dynamic_modifier
+	monthly_population = JAP_LDP_national_reform_monthly_population_dynamic_modifier
+	political_advisor_cost_factor = JAP_LDP_national_reform_political_advisor_cost_factor_dynamic_modifier
+	unit_leader_as_advisor_cp_cost_factor = JAP_LDP_national_reform_unit_leader_as_advisor_cp_cost_factor_dynamic_modifier
+}

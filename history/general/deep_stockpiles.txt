@@ -1,0 +1,66 @@
+ISR = {
+    set_variable = {var = tank_stocks_1 value = 1500} #all M60s + centurions basically
+    set_variable = {var = AFV_stocks_1 value = 200} #mostly achzarit and whatnot, we could include M113s but I would rather not
+    set_variable = {var = APC_stocks_1 value = 4000} #Mostly M-2 and M-3 halftracks in store
+}
+PRC = {
+    set_variable = {var = tank_stocks_1 value = 2800} #Type 62s and type 59s 
+    set_variable = {var = tank_stocks_2 value = 600} #Type 69/79 and some 85s
+    set_variable = {var = AFV_stocks_1 value = 1000} #trash Type 
+    set_variable = {var = AFV_stocks_2 value = 600} #BMP varient
+    set_variable = {var = APC_stocks_1 value = 150} #Type 60 BTR-60s, utter trash
+}
+GER = {
+    set_variable = {var = tank_stocks_1 value = 1500} #Leopard 1s
+    set_variable = {var = tank_stocks_2 value = 700} #Leopard 2s, early
+    set_variable = {var = AFV_stocks_1 value = 1000} #Marder 1
+    set_variable = {var = recon_stocks_1 value = 200} #Luchs
+    set_variable = {var = APC_stocks_1 value = 200} #Fuchs
+}
+FRA = {
+    set_variable = {var = tank_stocks_1 value = 1100} #AMX-30
+    set_variable = {var = AFV_stocks_1 value = 400} #AMX-10P and 13
+    set_variable = {var = APC_stocks_1 value = 500} #VABs mostly
+}
+ENG = {
+    set_variable = {var = tank_stocks_1 value = 700} #Chieftan there are tons of chally 1s but Jordan gets them
+    set_variable = {var = AFV_stocks_1 value = 600} #FV432
+    set_variable = {var = AFV_stocks_2 value = 100} #Old Warriors, might not exist!
+    set_variable = {var = APC_stocks_1 value = 150} #A few old saxons
+}
+RUS = {
+    set_variable = {var = tank_stocks_1 value = 30000} #T-54/55/62/64
+    set_variable = {var = tank_stocks_2 value = 10000} #T-72+T-80
+    set_variable = {var = AFV_stocks_1 value = 6000} #MTLB
+    set_variable = {var = AFV_stocks_2 value = 12000} #BMP1/2/BMD-1/2
+    set_variable = {var = APC_stocks_1 value = 6000} #BTR-60/70
+    set_variable = {var = APC_stocks_2 value = 400} #BTR-80
+}
+USA = {
+    set_variable = {var = tank_stocks_1 value = 6000} #M-60
+    set_variable = {var = tank_stocks_2 value = 1800} #Abrams
+    set_variable = {var = AFV_stocks_1 value = 7000} #M113 
+    set_variable = {var = AFV_stocks_2 value = 1800} #Bradley
+}
+UKR = {
+    set_variable = {var = tank_stocks_1 value = 1800} #T-64
+    set_variable = {var = tank_stocks_2 value = 900} #T-72+T-80
+    set_variable = {var = AFV_stocks_1 value = 2000} #MTLB
+    set_variable = {var = AFV_stocks_2 value = 2000} #BMP1/2
+    set_variable = {var = APC_stocks_1 value = 1800} #BTR-60/70
+}
+PRK = {
+    set_variable = {var = tank_stocks_1 value = 2700} #T-55/62/Chonma-ho/Type 59
+    set_variable = {var = AFV_stocks_2 value = 750} #BMPs + VTT-323 very sus
+    set_variable = {var = APC_stocks_1 value = 900} #BTR-60/70
+}
+EGY = {
+    set_variable = {var = tank_stocks_1 value = 1500} #M-48A5T1 mostly
+    set_variable = {var = APC_stocks_1 value = 300} #M113s probably
+}
+RAJ = {
+    set_variable = {var = tank_stocks_1 value = 1100} #T-55s aand maybe Vijayanta plus the odd centurion
+    set_variable = {var = tank_stocks_2 value = 900} #T-72+T-80
+    set_variable = {var = AFV_stocks_2 value = 200} #BMP1/2 bit sus
+    set_variable = {var = APC_stocks_1 value = 600} #BTR-60/70
+}

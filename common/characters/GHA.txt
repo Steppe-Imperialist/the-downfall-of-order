@@ -1,0 +1,236 @@
+characters={
+	GHA_livingstone_komla_buama={
+		#name="Livingstone Komla Buama"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Livingstone_Komla_Buama.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_theocracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_joseph_nunoo_mensah={
+		#name="Joseph Nunoo-Mensah"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Joseph_Nunoo_Mensah.dds"
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_osei_tutu_II={
+		#name="Osei Tutu II"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Osei_Tutu_II.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_john_kufuor={
+		#name="John Kufuor"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/John_Kufuor.dds"
+			}
+		}
+		country_leader={
+			ideology=conservative_liberalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_augustus_obuadum_tanoh={
+		#name="Augustus Obuadum Tanoh"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Augustus_Obuadum_Tanoh.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_paa_kwesi_nduom={
+		#name="Paa Kwesi Nduom"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Paa_Kwesi_Nduom.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_jerry_rawlings={
+		#name="Jerry Rawlings"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Jerry_Rawlings.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_edward_mahama={
+		#name="Edward Mahama"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Edward_Mahama.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	### 2016 ###
+	GHA_nana_akufo_addo={
+		#name="Nana Akufo-Addo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/Nana_Akufo_Addo.dds"
+			}
+		}
+		country_leader={
+			ideology=conservative_liberalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GHA_john_dramani_mahama={
+		#name="John Dramani Mahama"
+		portraits={
+			civilian={
+				large="gfx/leaders/GHA/John_Dramani_Mahama.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	GHA_ben_akafia={
+		#name="Ben Akafia"
+		portraits={
+			army={
+				large="gfx/leaders/GHA/Ben_Akafia.dds"
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GHA_seth_kofi_obeng={
+		#name="Seth Kofi Obeng"
+		portraits={
+			army={
+				large="gfx/leaders/GHA/Seth_Kofi_Obeng.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GHA_peter_blay={
+		#name="Peter Blay"
+		portraits={
+			army={
+				large="gfx/leaders/GHA/Peter_Blay.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GHA_arnold_quainoo={
+		#name="Arnold Quainoo"
+		portraits={
+			army={
+				large="gfx/leaders/GHA/Arnold_Quainoo.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GHA_arthur_riby_sampa_nuno={
+		#name="Arthur Riby Sampa Nuno"
+		portraits={
+			army={
+				large="gfx/leaders/GHA/Arthur_Riby_Sampa_Nuno.dds"
+			}
+		}
+		navy_leader={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GHA_matthew_quashie={
+		#name="Matthew Quashie"
+		portraits={
+			army={
+				large="gfx/leaders/GHA/Matthew_Quashie.dds"
+			}
+		}
+		navy_leader={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

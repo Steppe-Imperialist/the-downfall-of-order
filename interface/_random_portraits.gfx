@@ -1,0 +1,1844 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_1"
+		texturefile = "gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_1_small"
+		texturefile = "gfx/interface/ideas/idea_africa_generic_1.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_2"
+		texturefile = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_2_small"
+		texturefile = "gfx/interface/ideas/idea_africa_generic_2.dds"
+	}
+
+ 
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_3"
+		texturefile = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_3_small"
+		texturefile = "gfx/interface/ideas/idea_africa_generic_3.dds"
+	}
+
+ 
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_1"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_1_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_2"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_2_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_2.dds"
+	}
+
+ 
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_3"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_3_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_3.dds"
+	}
+
+ 
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_1"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_1_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic1_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_2"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_2_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic2_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_3"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_3_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic3_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_4"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_4_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic4_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_5"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_5_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic5_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_6"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_6_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic6_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_7"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_7_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic7_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_8"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_8_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic8_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_9"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_9.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_9_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic9_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_10"
+		texturefile = "gfx/leaders/Europe/Portrait_Europe_Generic_10.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_10_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic10_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_1"
+		texturefile = "gfx/leaders/Europe/general_female1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_1_small"
+		texturefile = "gfx/interface/ideas/european/general_female1_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_2"
+		texturefile = "gfx/leaders/Europe/general_female2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_2_small"
+		texturefile = "gfx/interface/ideas/european/general_female2_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_3"
+		texturefile = "gfx/leaders/Europe/general_female3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_3_small"
+		texturefile = "gfx/interface/ideas/european/general_female3_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_4"
+		texturefile = "gfx/leaders/Europe/general_female4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_4_small"
+		texturefile = "gfx/interface/ideas/european/general_female4_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_5"
+		texturefile = "gfx/leaders/Europe/general_female5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Army_Generic_Female_5_small"
+		texturefile = "gfx/interface/ideas/european/general_female5_idea.dds"
+	}
+
+ 
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_1"
+		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_1_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_2"
+		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_2_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_3"
+		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_3_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_3.dds"
+	}
+
+ 
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_3"
+		texturefile = "gfx/leaders/RUS/Portrait_Soviet_Generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_3_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_generic_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_1"
+		texturefile = "gfx/leaders/Africa/general1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/general1_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_2"
+		texturefile = "gfx/leaders/Africa/general2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/general2_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_3"
+		texturefile = "gfx/leaders/Africa/general3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/general3_small.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_4"
+		texturefile = "gfx/leaders/Africa/general4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/general4_small.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_5"
+		texturefile = "gfx/leaders/Africa/general5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/general5_small.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_6"
+		texturefile = "gfx/leaders/Africa/af1back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/af1advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_7"
+		texturefile = "gfx/leaders/Africa/af2back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/af2advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_8"
+		texturefile = "gfx/leaders/Africa/af3back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/af3advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_9"
+		texturefile = "gfx/leaders/Africa/af4back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_9_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/af4advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_10"
+		texturefile = "gfx/leaders/Africa/af5back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_10_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/af5advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_11"
+		texturefile = "gfx/leaders/Africa/general1s.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_land_11_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/african/general1s_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_navy_1"
+		texturefile = "gfx/leaders/Africa/general1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_africa_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_navy_2"
+		texturefile = "gfx/leaders/Africa/general2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_africa_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_navy_3"
+		texturefile = "gfx/leaders/Africa/general3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Africa_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_africa_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_1"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_2"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_3"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_4"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_4.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_5"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_6"
+		texturefile = "gfx/leaders/Asia/as1back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/as1advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_7"
+		texturefile = "gfx/leaders/Asia/as2back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/as2advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_8"
+		texturefile = "gfx/leaders/Asia/as3back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/as3advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_9"
+		texturefile = "gfx/leaders/Asia/as4back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_9_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/as4advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_10"
+		texturefile = "gfx/leaders/Asia/as5back.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_10_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/as5advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_1"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_female_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_1_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_idea_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_2"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_female_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_2_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_idea_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_3"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_female_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_3_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_idea_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_4"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_female_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_4_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_idea_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_5"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_female_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_5_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_idea_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_6"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_female_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_6_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_idea_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_7"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_female_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_7_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_idea_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_8"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_female_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_land_female_8_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_idea_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_female_1"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_female_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_female_1_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_navy_idea_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_female_2"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_female_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_female_2_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_navy_idea_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_female_3"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_female_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_female_3_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/asian/asian_female_navy_idea_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_1"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_female_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_1_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_2"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_female_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_2_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_3"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_female_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_3_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_4"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_female_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_4_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_5"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_female_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_5_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_6"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_female_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_6_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_7"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_female_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_7_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_8"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_female_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_8_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_9"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_female_9.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_female_9_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_9.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_1"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_2"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_3"
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Asia_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_asia_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_1"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_ENG_generic_land_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_2"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_ENG_generic_land_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_3"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_ENG_generic_land_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_4"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_ENG_generic_land_4.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_5"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_ENG_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_6"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/idea_ENG_generic_land_6.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_navy_1"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_ENG_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_navy_2"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_ENG_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_navy_3"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Britain_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_ENG_generic_navy_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_leader_unknown"
+		texturefile = "gfx/leaders/leader_unknown_female.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_leader_unknown_small"
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_leader_unknown_female"
+		texturefile = "gfx/leaders/leader_unknown_female.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_leader_unknown_female_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_13.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_1"
+		texturefile = "gfx/leaders/Europe/general1.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_1_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic6_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_2"
+		texturefile = "gfx/leaders/Europe/e1back.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_2_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic1_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_basicboi"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic3_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_3"
+		texturefile = "gfx/leaders/Europe/e3back.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_3_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic3_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_4"
+		texturefile = "gfx/leaders/Europe/e4back.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_4_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic4_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_5"
+		texturefile = "gfx/leaders/Europe/e5back.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_5_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic5_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_6"
+		texturefile = "gfx/leaders/Europe/general2.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_6_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic7_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_7"
+		texturefile = "gfx/leaders/Europe/general3.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_7_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic8_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_8"
+		texturefile = "gfx/leaders/Europe/general4.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_8_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic9_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_9"
+		texturefile = "gfx/leaders/Europe/general5.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_9_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic10_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_land_10"
+		texturefile = "gfx/leaders/Europe/general1.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_10_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/european/army_generic6_idea.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_navy_1"
+		texturefile = "gfx/leaders/Europe/admiral1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_navy_2"
+		texturefile = "gfx/leaders/Europe/admiral2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_navy_3"
+		texturefile = "gfx/leaders/Europe/admiral3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Europe_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_13"
+		texturefile = "gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_europe_generic_land_13_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_13.dds"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_1"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_generic_land_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_2"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_generic_land_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_3"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_generic_land_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_4"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_generic_land_4.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_5"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_navy_1"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_navy_2"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_navy_3"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_1"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_GER_generic_land_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_2"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_GER_generic_land_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_3"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_GER_generic_land_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_4"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_GER_generic_land_4.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_5"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_GER_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_navy_1"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_GER_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_navy_2"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_GER_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_navy_3"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_GER_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_land_1"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_ITA_generic_land_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_land_2"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_ITA_generic_land_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_land_3"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_ITA_generic_land_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_land_5"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_ITA_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_navy_1"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_ITA_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_navy_2"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_ITA_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_navy_3"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Italy_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_ITA_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_1"
+		texturefile = "gfx/leaders/JAP/generals/Portrait_Japan_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_land_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_2"
+		texturefile = "gfx/leaders/JAP/generals/Portrait_Japan_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_land_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_3"
+		texturefile = "gfx/leaders/JAP/generals/Portrait_Japan_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_land_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_4"
+		texturefile = "gfx/leaders/JAP/generals/Portrait_Japan_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_land_4.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_5"
+		texturefile = "gfx/leaders/JAP/generals/Portrait_Japan_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_navy_1"
+		texturefile = "gfx/leaders/JAP/admirals/Portrait_Japan_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_navy_2"
+		texturefile = "gfx/leaders/JAP/admirals/Portrait_Japan_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_navy_3"
+		texturefile = "gfx/leaders/JAP/admirals/Portrait_Japan_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_1"
+		texturefile = "gfx/leaders/Arabia/general1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_land_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_2"
+		texturefile = "gfx/leaders/Arabia/general2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_land_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_3"
+		texturefile = "gfx/leaders/Arabia/general3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_4"
+		texturefile = "gfx/leaders/Arabia/general4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/arab/arab_general_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_5"
+		texturefile = "gfx/leaders/Arabia/general5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/arab/arab_general_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_6"
+		texturefile = "gfx/leaders/Arabia/general6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/arab/arab_general_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_7"
+		texturefile = "gfx/leaders/Arabia/general7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/arab/arab_general_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_8"
+		texturefile = "gfx/leaders/Arabia/general8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/generic_advisors/arab/arab_general_9.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_navy_1"
+		texturefile = "gfx/leaders/Arabia/general1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_navy_2"
+		texturefile = "gfx/leaders/Arabia/general2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_navy_3"
+		texturefile = "gfx/leaders/Arabia/general3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arabia_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_1"
+		texturefile = "gfx/leaders/RUS/Portrait_Soviet_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_generic_land_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_2"
+		texturefile = "gfx/leaders/RUS/Portrait_Soviet_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_generic_land_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_3"
+		texturefile = "gfx/leaders/RUS/Portrait_Soviet_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_generic_land_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_4"
+		texturefile = "gfx/leaders/RUS/Portrait_Soviet_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_generic_land_4.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_5"
+		texturefile = "gfx/leaders/RUS/Portrait_Soviet_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_navy_1"
+		texturefile = "gfx/leaders/RUS/Portrait_Soviet_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_navy_2"
+		texturefile = "gfx/leaders/RUS/Portrait_Soviet_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_navy_3"
+		texturefile = "gfx/leaders/RUS/Portrait_Soviet_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_generic_navy_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_1"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_USA_generic_land_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_2"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_USA_generic_land_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_3"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_USA_generic_land_3.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_4"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_USA_generic_land_4.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_5"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_USA_generic_land_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_1"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_USA_generic_navy_1.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_2"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_USA_generic_navy_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_3"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/idea_USA_generic_navy_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Army_Generic"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Army_Generic_small"
+		texturefile = "gfx/interface/ideas/idea_RAJ_army_generic.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Army_Generic_2"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Army_Generic_2_small"
+		texturefile = "gfx/interface/ideas/idea_RAJ_army_generic_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Political_Leader_Generic"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Political_Leader_Generic_small"
+		texturefile = "gfx/interface/ideas/idea_RAJ_political_leader_generic.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Political_Leader_Generic_2"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Political_Leader_Generic_2_small"
+		texturefile = "gfx/interface/ideas/idea_RAJ_political_leader_generic_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_Africa_Army_Generic"
+		texturefile = "gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_Africa_Army_Generic_small"
+		texturefile = "gfx/interface/ideas/idea_south_africa_army_generic.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_Africa_Army_Generic_2"
+		texturefile = "gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_Africa_Army_Generic_2_small"
+		texturefile = "gfx/interface/ideas/idea_south_africa_army_generic_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_Africa_Political_Leader_Generic"
+		texturefile = "gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_Africa_Political_Leader_Generic_small"
+		texturefile = "gfx/interface/ideas/idea_south_africa_political_leader_generic.dds"
+	}
+
+		
+	spriteType = {
+		name = "GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+		texturefile = "gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_Africa_Political_Leader_Generic_2_small"
+		texturefile = "gfx/interface/ideas/idea_south_africa_political_leader_generic_2.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_1"
+		texturefile = "gfx/leaders/South America/politician1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_1_small"
+		texturefile = "gfx/interface/ideas/South America/politician1_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_2"
+		texturefile = "gfx/leaders/South America/politician3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_2_small"
+		texturefile = "gfx/interface/ideas/South America/politician3_small.dds"
+	}
+
+ 
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_3"
+		texturefile = "gfx/leaders/South America/politician3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_3_small"
+		texturefile = "gfx/interface/ideas/South America/politician3_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_4"
+		texturefile = "gfx/leaders/South America/politician4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_4_small"
+		texturefile = "gfx/interface/ideas/South America/politician4_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_5"
+		texturefile = "gfx/leaders/South America/politician5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_5_small"
+		texturefile = "gfx/interface/ideas/South America/politician5_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_1"
+		texturefile = "gfx/leaders/South America/general1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/South America/general1_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_2"
+		texturefile = "gfx/leaders/South America/general2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/South America/general2_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_3"
+		texturefile = "gfx/leaders/South America/general3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/South America/general3_small.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_4"
+		texturefile = "gfx/leaders/South America/general4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/South America/general4_small.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_5"
+		texturefile = "gfx/leaders/South America/general5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/South America/general5_small.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_6"
+		texturefile = "gfx/leaders/South America/general6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/South America/general6_small.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_7"
+		texturefile = "gfx/leaders/South America/general7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/South America/general7_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_1"
+		texturefile = "gfx/leaders/South America/admiral1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/South America/admiral1_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_2"
+		texturefile = "gfx/leaders/South America/admiral2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/South America/admiral2_small.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_3"
+		texturefile = "gfx/leaders/South America/admiral3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_South_America_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/South America/admiral3_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Magic_Winner"
+		texturefile = "gfx/leaders/RUS/portrait_soviet_pdxcon_magic_winner.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Soviet_Magic_Winner_small"
+		texturefile = "gfx/interface/ideas/idea_RUS_pdxcon_magic_winner.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Generic_navy_1"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/idea_RAJ_generic_navy_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Generic_navy_2"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_The_Raj_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/idea_RAJ_generic_navy_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_1"
+		texturefile = "gfx/leaders/USA/generals/Dennis_Reimer.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_2"
+		texturefile = "gfx/leaders/USA/generals/David_Ottignon.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_3"
+		texturefile = "gfx/leaders/USA/generals/Craig_Timberlake.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_4"
+		texturefile = "gfx/leaders/USA/generals/Joseph_M_Martin.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_5"
+		texturefile = "gfx/leaders/USA/generals/Robert_B_Abrams.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_6"
+		texturefile = "gfx/leaders/FRA/Portrait_Francois_Regis_Jaminet.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_7"
+		texturefile = "gfx/leaders/FRA/Portrait_Christophe_Bizien.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_8"
+		texturefile = "gfx/leaders/GER/generals/Egon_Ramms.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_9"
+		texturefile = "gfx/leaders/GER/generals/Dirk_Backen.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_9_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_10"
+		texturefile = "gfx/leaders/GER/generals/Carsten_Jacobson.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_10_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_11"
+		texturefile = "gfx/leaders/HOL/Portrait_Michiel_van_der_Laan.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_11_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_12"
+		texturefile = "gfx/leaders/HOL/Portrait_Nico_Geerts.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_12_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_13"
+		texturefile = "gfx/leaders/ITA/generals/Enzo_Vecciarelli.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NATO_Generic_land_13_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_3.dds"
+	}
+	
+	# india
+	spriteType = {
+		name = "GFX_Portrait_India_Generic_land_1"
+		texturefile = "gfx/leaders/india/Portrait_India_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_India_Generic_land_2"
+		texturefile = "gfx/leaders/india/Portrait_India_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_India_Generic_land_3"
+		texturefile = "gfx/leaders/india/Portrait_India_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_India_Generic_land_4"
+		texturefile = "gfx/leaders/india/Portrait_India_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_India_Generic_land_5"
+		texturefile = "gfx/leaders/india/Portrait_India_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_India_Generic_land_6"
+		texturefile = "gfx/leaders/india/Portrait_India_Generic_land_6.dds"
+	}
+	
+}

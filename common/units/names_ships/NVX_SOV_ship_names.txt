@@ -1,0 +1,103 @@
+
+## THEME: RUSSIAN CITIES ###
+RUS_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { RUS }
+
+	type = ship
+	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_submarine }
+
+	unique = {
+		"Moskva" "Saint Petersburg" "Orel" "Kiev" "Minsk" "Stalingrad" "Sevastopol" "Novorossiysk" "Kharkov" 
+		"Baku" "Riga" "Ulyanovsk" "Tblisi" "Arkhangelsk" "Vladivostok" "Kirov" "Voroshilov" 
+		"Kalinin" "Tallin" "Murmansk" "Tashkent" "Ashkhabad" "Alma-Ata" "Kerch" "Azov" 
+	}
+}
+
+## THEME: FAMOUS RUSIET LEADERS ###
+RUS_LEADERS = {
+	name = NAME_THEME_LEADERS
+
+	for_countries = { RUS }
+	can_use = { has_government = communist }
+
+	type = ship
+	#ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_carrier }
+
+	unique = {
+		"Karl Marx" "Vladamir Lenin" "Iosef Stalin" "Leonid Brezhnev" "Karl Libknekht" "Mikhail Kutuzov" "Aleksandr Suvorov" "Yuri Andropov" "Dmitry Pozharski" "Vasily Chapaev" 
+		"Admiral Kuznetsov" "Aleksandr Nevskiy" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Admiral Senyavin" "Admiral Gorshkov" "Admiral Zozulya" 
+		"Admiral Yumashev" "Admiral Isakov" "Admiral Makarov" "Admiral Isachenkov"
+		"Nikita Khrushchev" "Leonid Brezhnev" "Yuri Andropov" "Konstantin Chernenko" "Mikhail Gorbachev"
+	}
+}
+
+## THEME: Slavic Mythology ###
+RUS_MYTHLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { RUS }
+
+	type = ship
+	#ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_carrier }
+
+	unique = {
+		"Rod" "Belobog" "Sudenica" "Vida" "Zhiva" "Triglav" "Svarog" "Perun" "Svetovid"
+		"Dazhbog" "Jutrobog" "Devana"
+	}
+}
+
+## THEME: Slavic Artists ###
+RUS_Artists = {
+	name = NAME_THEME_ARTISTS
+
+	for_countries = { RUS }
+
+	type = ship
+	#ship_types = { ship_hull_heavy ship_hull_light ship_hull_submarine }
+
+	unique = {
+		#Music
+		"Pyotr Tchaikovsky"
+		#Novel
+		"Fyodor Dostoevsky" "Aleksandr Solzhenitsyn" "Anton Chekhov" "Leo Tolstoy" "Ivan Goncharov"
+		"Maxim Gorky" "Alexander Pushkin" "Vladimirovich Nabokov" "A. K. Tolstoy" "Nikolai Gogol"
+		"Alexander Ablesimov" "Boris Almazov" "Denis Davydov"
+	}
+}
+
+RUS_Presidents = {
+	name = NAME_THEME_PRESIDENTS
+
+	for_countries = { RUS }
+	
+	can_use = { 
+		NOT = { has_government = monarchist }
+	}
+
+	type = ship
+	#ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_carrier }
+
+	unique = {
+	  # 1917 Russian Provisional Government
+	  "Georgy Lvov" "Alexander Kerensky"
+	  # 1991 ~ 2000 Russian Federation
+		"Boris Yeltsin" "Vladimir Putin"
+		# Acting President of Russia 1993, 1996
+		"Alexander Rutskoy" "Viktor Chernomyrdin"
+	}
+}
+
+RUS_20TH_BATTLESHIP = {
+	name = NAME_THEME_20TH_BATTLESHIP
+
+	for_countries = { RUS }
+
+	type = ship
+	#ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_carrier }
+
+	unique = {
+	"Arkhangelsk" "Novorossiysk" "Sovyetskiy Soyuz" "Sovyetskaya Ukraina" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya" "Oktyabrskaya Revolutsiya" "Marat" "Frunze" "Parizhskaya Kommuna" 											
+	}
+}

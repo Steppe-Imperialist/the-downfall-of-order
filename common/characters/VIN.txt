@@ -1,0 +1,174 @@
+characters={
+	VIN_Le_Kha_Phieu={
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Le_Kha_Phieu.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			desc = "POLITICS_LE_KHA_PHIEU_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+		
+		field_marshal={
+			traits={ old_guard politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	
+	VIN_Nong_Duc_Manh={
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Nong_Duc_Manh.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			desc = "POLITICS_NONG_DUC_MANH_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	VIN_thadeus_nguyen_van_ly={
+		#name="Thadeus Nguyen Van Ly"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Nguyen_Thien_Nhan.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_pham_the_duyet={
+		#name="Pham The Duyet"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Pham_The_Duyet.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_do_hoang_diem={
+		#name="Do Hoang Diem"
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Do_Hoang_Diem.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	VIN_phan_van_giang={
+		#name="Phan Van Giang"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/generals/Phan_Van_Giang.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VIN_do_ba_ty={
+		#name="Do Ba Ty"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/generals/Do_Ba_Ty.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VIN_ngo_xuan_lich={
+		#name="Ngo Xuan Lich"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/generals/Ngo_Xuan_Lich.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VIN_phung_quang_thanh={
+		#name="Phung Quang Thanh"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/generals/Phung_Quang_Thanh.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	VIN_pham_hoai_nam={
+		#name="Pham Hoai Nam"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/VIN/admirals/Pham_Hoai_Nam.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,166 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+ USA_general_dynamics_land_organization = {
+	include = generic_tank_organization
+	icon = GFX_idea_general_dynamics_land_systems
+
+	allowed = {	
+		tag = USA
+	}
+}
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+USA_northrop_grumman_naval_organization = {
+	include = generic_task_force_ship_organization
+	icon = GFX_idea_USA_Northrop_Grumman
+
+	allowed = {	
+		OR = {
+			tag = USA
+		}
+	}
+}
+USA_HII_organization = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_USA_HII
+
+	allowed = {	
+		OR = {
+			tag = USA
+		}
+	}
+}
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+USA_Lockheed_martin_organization = {
+	include = generic_general_aircraft_organization
+	icon = GFX_idea_USA_Lockheed_Martin
+
+	allowed = {
+		or = {
+			tag = USA
+			tag = HUN
+		}	
+	}
+
+	available = {
+		if = {
+			limit = {
+				FROM = { NOT = { original_tag = USA } }
+			}
+			FROM = { is_in_faction_with = USA }
+		}
+	}
+}
+USA_northrop_grumman_organization = {
+	include = generic_cas_aircraft_organization
+	icon = GFX_idea_USA_Northrop_Grumman
+
+	allowed = {
+		or = {
+			tag = USA
+			tag = HUN
+		}	
+	}
+
+	available = {
+		if = {
+			limit = {
+				FROM = { NOT = { original_tag = USA } }
+			}
+			FROM = { is_in_faction_with = USA }
+		}
+	}
+}
+USA_raytheon_organization = {
+	include = generic_medium_aircraft_organization
+	icon = GFX_idea_USA_Raytheon_Technologies
+
+	allowed = {
+		or = {
+			tag = USA
+			tag = HUN
+		}	
+	}
+
+	available = {
+		if = {
+			limit = {
+				FROM = { NOT = { original_tag = USA } }
+			}
+			FROM = { is_in_faction_with = USA }
+		}
+	}
+}
+USA_boeing_organization = {
+	include = generic_range_focused_aircraft_organization
+	icon = GFX_idea_USA_Boeing
+
+	allowed = {	
+		OR = {
+			tag = USA
+		}
+	}
+}
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+USA_colt_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+
+	allowed = {	
+		OR = {
+			tag = USA
+		}
+	}
+}
+USA_am_general_organization = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_am_general
+
+	allowed = {	
+		OR = {
+			tag = USA
+			tag = GUA
+		}
+	}
+
+	available = {
+		if = {
+			limit = {
+				FROM = { NOT = { original_tag = USA } }
+			}
+			FROM = { NOT = { has_war_with = USA } }
+		}
+	}	
+}

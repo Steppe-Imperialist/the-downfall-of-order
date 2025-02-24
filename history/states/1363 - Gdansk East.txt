@@ -1,0 +1,41 @@
+state={
+	id=1363
+	name="STATE_1363"
+	resources={
+		oil=2.000
+		rubber=3.000
+	}
+
+	history={
+		owner = RUS
+		add_core_of = POL
+		
+		victory_points = {
+			3295 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 3
+			air_base = 3
+			362 = {
+				naval_base = 6
+
+			}
+			13851 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3295 6347
+	}
+	manpower=66300
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+	local_supplies=0.000
+}

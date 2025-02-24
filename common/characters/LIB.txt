@@ -1,0 +1,187 @@
+characters={
+	LIB_charles_taylor={
+		#name="Charles Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LIB_winston_tubman={
+		#name="Winston Tubman"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Winston_Tubman.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_george_weah={
+		#name="George Weah"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		country_leader={
+			ideology=conservative_liberalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_charles_brumskine={
+		#name="Charles Brumskine"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_ellen_johnson_sirleaf={
+		#name="Ellen Johnson Sirleaf"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		gender = female
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_joseph_woah_tee={
+		#name="Joseph Woah-Tee"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_sekou_conneh={
+		#name="Sekou Conneh"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LIB_gabriel_baccus_matthews={
+		#name="Gabriel Baccus Matthews"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	# Army #
+
+	LIB_benjamin_yeaten={
+		#name="Benjamin Yeaten"
+		portraits={
+			army={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LIB_chuckie_taylor={
+		#name="Charles 'Chuckie' Taylor"
+		portraits={
+			army={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected harsh_leader old_guard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LIB_kpenkpah_konah={
+		#name="Kpenkpah Konah"
+		portraits={
+			army={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LIB_prince_johnson_III={
+		#name="Prince C. Johnson III"
+		portraits={
+			army={
+				large="gfx/leaders/LIB/Charles_Taylor.dds"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,50 @@
+
+state={
+	id=1354
+	name="STATE_1354"
+	resources={
+		oil=2.000
+		steel=5.000
+	}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+		add_claim_by = RUS
+		victory_points = {
+			3686 10 
+		}
+		victory_points = {
+			15392 5 
+		}
+		victory_points = {
+			705 1
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+			dockyard = 2
+			3686 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+			9680 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		705 3686 6704 15392
+	}
+	manpower=134920
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+	local_supplies=0.000
+}

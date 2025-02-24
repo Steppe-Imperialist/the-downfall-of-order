@@ -1,0 +1,306 @@
+spriteTypes = {
+
+	### Japan
+	
+	spriteType = {
+		name = "GFX_report_event_anime_event_1"
+		texturefile = "gfx/event_pictures/report_event/japan/anime_event_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_anime_event_2"
+		texturefile = "gfx/event_pictures/report_event/japan/anime_event_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_anime_event_1"
+		texturefile = "gfx/event_pictures/report_event/japan/anime_event_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_anti_japanese_event_1"
+		texturefile = "gfx/event_pictures/report_event/japan/anti_japanese_event_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_anti_japanese_event_2"
+		texturefile = "gfx/event_pictures/report_event/japan/anti_japanese_event_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_liancourt_event_1"
+		texturefile = "gfx/event_pictures/report_event/japan/liancourt_event_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_liancourt_event_2"
+		texturefile = "gfx/event_pictures/report_event/japan/liancourt_event_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_manchukuo_event"
+		texturefile = "gfx/event_pictures/report_event/japan/manchukuo_event.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pacific_war"
+		texturefile = "gfx/event_pictures/report_event/japan/pacific_war.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_samurai"
+		texturefile = "gfx/event_pictures/report_event/japan/samurai.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_sunset"
+		texturefile = "gfx/event_pictures/report_event/japan/sunset.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_tokyo_night"
+		texturefile = "gfx/event_pictures/report_event/japan/tokyo_night.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_keizo_obuchi_death"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_keizo_obuchi_death.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_koichi_kato"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_koichi_kato.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_yoshiro_mori_1"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_yoshiro_mori_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_yoshiro_mori_2"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_yoshiro_mori_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_koichi_kato_2"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_koichi_kato_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_National_Assembly"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_National_Assembly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_mikio_aoki"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_mikio_aoki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_korea_japan"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_korea_japan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_kim_dae_jung_akihito"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_kim_dae_jung_akihito.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_fujimori_airplane"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_fujimori_airplane.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_fujimori_wheelchair"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_fujimori_wheelchair.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_haruurara"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_haruurara.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_imperial_palace"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_imperial_palace.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_saburo_sakai"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_saburo_sakai.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_sumire_uesaka"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_sumire_uesaka.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_shinzo_abe"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_shinzo_abe.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_ehime_maru"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_ehime_maru.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_LDP"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_LDP.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_fusako_shigenobu"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_fusako_shigenobu.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_jieitai_1"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_jieitai_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_jieitai_2"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_jieitai_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_taro_aso"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_taro_aso.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_sponsor"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_sponsor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_2000_JCP"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_2000_JCP.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_shinichi_fujimura"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_shinichi_fujimura.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_LDP_election_1"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_LDP_election_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_LDP_election_2"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_LDP_election_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_100_yen"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_100_yen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_japanese_yen"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_japanese_yen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_tokyo"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_tokyo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_japanese_economic"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_japanese_economic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_japanese_economic"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_japanese_economic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_okinawa_unexploded"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_okinawa_unexploded.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_haruki_murakami"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_haruki_murakami.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_yukio_mishima"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_yukio_mishima.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_2000_kazuo_shii"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_2000_kazuo_shii.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_kazuo_shii_piano"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_kazuo_shii_piano.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_JAP_taku_yamasaki"
+		texturefile = "gfx/event_pictures/report_event/japan/JAP_taku_yamasaki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Kato_s_Rebellion"
+		texturefile = "gfx/event_pictures/news_event/japan/Kato_s_Rebellion.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_japan_army"
+		texturefile = "gfx/event_pictures/news_event/japan/japan_army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_japanese_national_diet"
+		texturefile = "gfx/event_pictures/news_event/japan/japanese_national_diet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_japan_prime_minister_s_official_residence"
+		texturefile = "gfx/event_pictures/news_event/japan/japan_prime_minister_s_official_residence.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_japanese_imperial_palace"
+		texturefile = "gfx/event_pictures/news_event/japan/japanese_imperial_palace.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_japanese_textbook"
+		texturefile = "gfx/event_pictures/news_event/japan/japanese_textbook.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_naruhito"
+		texturefile = "gfx/event_pictures/news_event/japan/naruhito.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_abe_assassination"
+		texturefile = "gfx/event_pictures/news_event/japan/abe_assassination.dds"
+	}
+	
+	### Ryukyu
+	
+	spriteType = {
+		name = "GFX_report_event_kariyushi_event"
+		texturefile = "gfx/event_pictures/report_event/ryukyu/kariyushi_event.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_okinawa_prefectural_assembly_event"
+		texturefile = "gfx/event_pictures/report_event/ryukyu/okinawa_prefectural_assembly_event.dds"
+	}
+}

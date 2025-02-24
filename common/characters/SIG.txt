@@ -1,0 +1,34 @@
+characters={
+
+	SIG_goh_chok_tong={
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/goh_chok_tong.dds"
+			}
+		}
+		country_leader={
+			ideology=managed_democracy
+			desc = "POLITICS_GOH_CHOK_TONG_DESC"
+			traits = {  }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	SIG_lee_hsien_loong={
+		portraits={
+			civilian={
+				large="gfx/leaders/SIG/lee_hsien_loong.dds"
+			}
+		}
+		country_leader={
+			ideology=managed_democracy
+			desc = "POLITICS_LEE_HSIEN_LOONG_DESC"
+			traits = {  }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+}

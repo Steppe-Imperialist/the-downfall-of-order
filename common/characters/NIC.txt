@@ -1,0 +1,226 @@
+characters={
+	NIC_guillermo_osorno_molina={
+		name=NIC_guillermo_osorno_molina
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Guillermo_Osorno_Molina.dds"
+			}
+		}
+		country_leader={
+			ideology=fundamentalist_catholic
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_josephenie_hendy_clarence_robertson={
+		name=NIC_josephenie_hendy_clarence_robertson
+		gender = female
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Josephenie_Hendy_Clarence_Robertson.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_arnoldo_aleman={
+		name=NIC_arnoldo_aleman
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Arnoldo_Aleman.dds"
+			}
+		}
+		country_leader={
+			ideology=conservative_liberalism
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_virgilio_godoy_reyes={
+		name=NIC_virgilio_godoy_reyes
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Virgilio_Godoy_Reyes.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_fabio_gadea_mantilla={
+		name=NIC_virgilio_godoy_reyes
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Virgilio_Godoy_Reyes.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_kitty_monterrey={
+		name=NIC_kitty_monterrey
+		gender = female
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Kitty_Monterrey.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_sergio_ramirez={
+		name=NIC_sergio_ramirez
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Sergio_Ramirez.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_edward_martin_salazar_cruz={
+		name=NIC_edward_martin_salazar_cruz
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Edward_Martin_Salazar_Cruz.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_daniel_ortega={
+		name=NIC_daniel_ortega
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Daniel_Ortega.dds"
+			}
+		}
+		country_leader={
+			ideology=sandinismo
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_bonifacio_miranda={
+		name=NIC_bonifacio_miranda
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/Bonifacio_Miranda.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+
+	NIC_julio_cesar_aviles_castillo = {
+		name=NIC_julio_cesar_aviles_castillo
+		portraits = {
+			army = {
+				small="GFX_idea_generic_political_advisor_europe_1"
+				large = "gfx/leaders/NIC/Julio_Cesar_Aviles_Castillo.dds"
+			}
+		}
+		field_marshal = {
+			traits = { defensive_doctrine }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		country_leader={
+			ideology=military_junta
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	NIC_bayardo_ramon_rodriguez_ruiz = {
+		name=NIC_bayardo_ramon_rodriguez_ruiz
+		portraits = {
+			army = {
+				small="GFX_idea_generic_political_advisor_europe_1"
+				large = "gfx/leaders/NIC/Bayardo_Ramon_Rodriguez_Ruiz.dds"
+			}
+		}
+		corps_commander = {
+			traits = { jungle_rat }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	NIC_adolfo_jose_zepeda_martinez = {
+		name=NIC_adolfo_jose_zepeda_martinez
+		portraits = {
+			army = {
+				small="GFX_idea_generic_political_advisor_europe_1"
+				large = "gfx/leaders/NIC/Adolfo_Jose_Zepeda_Martinez.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	NIC_spiro_jose_bassi_aguilar = {
+		name=NIC_spiro_jose_bassi_aguilar
+		portraits = {
+			army = {
+				small="GFX_idea_generic_political_advisor_europe_1"
+				large = "gfx/leaders/NIC/Spiro_Jose_Bassi_Aguilar.dds"
+			}
+		}
+		corps_commander = {
+			traits = { hill_fighter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	NIC_angel_eugenio_fonseca_donaire = {
+		name=NIC_angel_eugenio_fonseca_donaire
+		portraits = {
+			army = {
+				small="GFX_idea_generic_political_advisor_europe_1"
+				large = "gfx/leaders/NIC/Angel_Eugenio_Fonseca_Donaire.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

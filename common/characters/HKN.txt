@@ -1,0 +1,44 @@
+characters={
+	HKN_CCP={
+		portraits={
+			civilian={
+				large="gfx/leaders/HKN/the_CCP.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			desc="POLITICS_THE_CCP_DESC"
+			traits={HKN_formal_democracy}
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HKN_Legislative_Council={
+		portraits={
+			civilian={
+				large="gfx/leaders/HKN/Legislative_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			desc="POLITICS_Legislative_Council_DESC"
+			traits={HKN_liberate_hong_kong}
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	HKN_Christopher_Francis_Patten={
+		portraits={
+			civilian={
+				large="gfx/leaders/HKN/Christopher_Francis_Patten.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			desc="POLITICS_Christopher_Francis_Patten_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+}

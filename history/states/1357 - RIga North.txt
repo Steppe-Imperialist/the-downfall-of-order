@@ -1,0 +1,28 @@
+state={
+	id=1357
+	name="STATE_1357"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = RUS
+		add_core_of = LAT
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+		}
+
+	}
+
+	provinces={
+		9240 10323 
+	}
+	manpower=1180000
+	buildings_max_level_factor=1.000
+	state_category=state_level_3
+}

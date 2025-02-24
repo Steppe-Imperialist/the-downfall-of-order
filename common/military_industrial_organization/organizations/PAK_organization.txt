@@ -1,0 +1,79 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+ PAK_Taxila_organization = {
+	include = generic_tank_organization
+	icon = GFX_idea_taxila
+
+	allowed = {	
+		OR = {
+			tag = PAK
+		}
+	}
+}
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+ PAK_karachi_shipyard_organization = {
+	include = generic_escort_ship_organization
+	icon = GFX_idea_generic_naval_manufacturer_1
+
+	allowed = {	
+		OR = {
+			tag = PAK
+		}
+	}
+}
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+ PAK_pakistan_aeronautical_organization = {
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_generic_air_manufacturer_1
+
+	allowed = {	
+		OR = {
+			tag = PAK
+		}
+	}
+}
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+ PAK_pakistan_ordinance_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+
+	allowed = {	
+		OR = {
+			tag = PAK
+		}
+	}
+}

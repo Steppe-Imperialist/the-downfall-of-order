@@ -1,0 +1,34 @@
+characters={
+	WAS_Bao_Youxiang={
+	
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/bao_youxiang.dds"
+			}
+		}
+		
+		country_leader={
+			ideology=maoist
+			desc = "POLITICS_Bao_Youxiang_DESC"
+			traits = { cornered_fox }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WAS_central_committee={
+		name=WAS_central_committee
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/wa_army.dds"
+			}
+		}
+	}
+	WAS_xiao_minliang={
+		name=WAS_xiao_minliang
+		portraits={
+			civilian={
+				large="gfx/leaders/WAS/xiao_minliang.dds"
+			}
+		}
+	}
+}

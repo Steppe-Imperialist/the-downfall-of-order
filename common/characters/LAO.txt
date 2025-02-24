@@ -1,0 +1,113 @@
+characters={
+	LAO_khamtay_siphandone={
+		#name="Khamtay Siphandone"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Khamtay_Siphandone.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_bounnhang_vorachith={
+		#name="Bounnhang Vorachith"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Bounnhang_Vorachith.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_khamphoui_sisavatdy={
+		#name="Khamphoui Sisavatdy"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Khamphoui_Sisavatdy.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	LAO_khampet_moukdarath={
+		#name="Khampet Moukdarath"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Khampet_Moukdarath.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	LAO_shoua_n_xiong={
+		#name="Shoua Nao Xiong"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Shoua_N_Xiong.dds"
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		country_leader={
+			ideology=big_tent
+			expire="2015.1.1.12"
+			id=-1
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+			visible = {
+				NOT = {
+					has_government = communist
+				}
+			}
+		}
+	}
+	LAO_soulivong_savang={
+		#name="Soulivong Savang"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Soulivong_Savang.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	LAO_douangchay_phichit={
+		#name="Douangchay Phichit"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			army={
+				large="gfx/leaders/LAO/generals/Douangchay_Phichit.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

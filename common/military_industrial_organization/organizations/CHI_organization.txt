@@ -1,0 +1,160 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+CHI_AVDC_organization = { 
+#https://zh.wikipedia.org/zh-cn/%E9%99%B8%E8%BB%8D%E5%85%B5%E5%B7%A5%E6%95%B4%E5%82%99%E7%99%BC%E5%B1%95%E4%B8%AD%E5%BF%83
+	include = generic_medium_tank_organization #generic_tank_refurbishment_plant_organization
+	icon = GFX_idea_CHI_AVDC
+
+	allowed = {	
+		OR = {
+			tag = CHI
+		}
+	}
+}
+
+CHI_209th_organization = {
+	include = generic_infantry_tank_organization
+	icon = GFX_idea_CHI_armaments_bureau
+
+	allowed = {	
+		OR = {
+			tag = CHI
+		}
+	}
+	#available = {
+	#	date > 2002.01.01
+	#}
+}
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+CHI_lungteh_shipbuilding_organization = {
+	include = generic_refurbishment_repair_organization
+	icon = GFX_idea_CHI_lungteh_shipbuilding
+
+	allowed = {	
+		OR = {
+			tag = CHI
+		}
+	}
+}
+
+CHI_JSSC_organization = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_CHI_JSSC
+
+	allowed = {	
+		OR = {
+			tag = CHI
+		}
+	}
+}
+
+CHI_CSBC_Corporation_organization = {
+	include = generic_submarine_organization
+	icon = GFX_idea_CHI_CSBC_Corporation
+
+	allowed = {	
+		OR = {
+			tag = CHI
+		}
+	}
+	
+	available = {
+		owner = { has_completed_focus = CHI_focus_on_CSBC}
+	}
+}
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+CHI_AIDC_organization = {
+	include = generic_general_aircraft_organization
+	icon = GFX_idea_CHI_AIDC
+
+	allowed = {	
+		OR = {
+			tag = CHI
+		}
+	}
+}
+
+CHI_JC_tech_organization = {
+	include = generic_drone_aircraft_organization
+	icon = GFX_idea_CHI_JC_tech
+
+	allowed = {	
+		OR = {
+			tag = CHI
+		}
+	}
+}
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+#CHI_205th_organization = {
+#	include = generic_infantry_equipment_organization
+#	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+#
+#	allowed = {	
+#		OR = {
+#			tag = CHI
+#		}
+#	}
+#	available = {
+#		date > 2002.01.01
+#	}
+#}
+
+CHI_ncsist_organization = {
+	include = generic_artillery_organization
+	icon = GFX_idea_CHI_NCSIST
+
+	allowed = {	
+		OR = {
+			tag = CHI
+		}
+	}
+}
+
+CHI_armaments_bureau_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_CHI_armaments_bureau
+
+	allowed = {	
+		OR = {
+			tag = CHI
+		}
+	}
+}

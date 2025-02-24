@@ -1,0 +1,482 @@
+# Written by E. Wolfe #
+on_actions = {
+	
+	#ROOT is free nation FROM is releaser
+	on_puppet = {		
+		effect = {
+			ROOT = { country_event = { id = political.0 } }
+		}
+	}
+	
+	on_liberate = {		
+		effect = {
+			ROOT = { country_event = { id = political.0	} }
+		}
+	}
+	on_capitulation_immediate = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {tag = IRQ}
+					IRQ = {has_war_with = USA}
+				}
+				if = {
+					limit = {
+						815 = {
+							is_owned_by = IRQ
+						}
+					}
+					815 = {
+						transfer_state_to = KUR
+					}
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = USA
+						has_war_with = IRQ
+					}
+					white_peace = IRQ
+				}
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								1002 = {is_owned_by = USA}
+							}
+							FROM = {tag = USA}
+						}
+					}
+					USA = {
+						puppet = {
+							target = IRQ
+							end_wars = yes
+						}
+					}
+				}
+			}
+
+		}
+	}
+	
+	on_startup = {
+		effect = {
+			every_country = {
+				NVX_LPA_calc_slots = yes
+				NVX_ECO_start = yes
+				NVX_national_preferences_set = yes
+				NVX_COUP_data_set = yes
+			}
+			every_country = {
+				country_event = political.0
+			}
+			RUS = {
+				NVX_USSR_set_state_flags = yes
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = PTS_WARFARING_OPTIONS
+						option = DISABLED
+					}
+				}
+				set_global_flag = pts_disable_warfaring
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = PTS_WARFARING_OPTIONS
+						option = INTENSIFY
+					}
+				}
+				set_global_flag = pts_intensify_warfaring
+			}
+			every_state = {
+				NVX_core_state_expense_calc = yes
+			}
+		}
+	}
+	
+	on_release_as_free = {
+		effect = {
+			ROOT = { country_event = { id = political.0	} }
+		}
+	}
+	
+	on_release_as_puppet = {
+		effect = {
+			ROOT = { country_event = { id = political.0	} }
+		}
+	}
+	
+	on_nuke_drop = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = DPTS_disable_nuke_threat }
+					threat < 0.7
+				}
+				ROOT = {
+					if = {
+						limit = { is_ai = yes }
+						NVX_nuke_threat_ai_calc = yes
+						else = {
+							add_named_threat = {
+								threat = 2
+								name = threat_used_nuke
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = IRQ
+						NOT = { has_war_with = SYR }
+					}
+					has_global_flag = SYR_civil_war_ISIS
+					FROM = { original_tag = ISS }
+					FROM.FROM = { state = 680 }
+				}
+				ROOT = { set_country_flag = IRQ_took_state_680 }
+			}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = IRQ
+						NOT = { has_war_with = SYR }
+					}
+					has_global_flag = SYR_civil_war_ISIS
+					FROM = { original_tag = KUR }
+					FROM.FROM = { state = 814 }
+				}
+				ROOT = { set_country_flag = IRQ_took_state_814 }
+			}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = SYR
+						NOT = { has_war_with = IRQ }
+					}
+					has_global_flag = SYR_civil_war_ISIS
+					FROM = { original_tag = ISS }
+					FROM.FROM = { state = 676 }
+				}
+				ROOT = { set_country_flag = SYR_took_state_676 }
+			}
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = SYR
+						NOT = { has_war_with = IRQ }
+					}
+					has_global_flag = SYR_civil_war_ISIS
+					FROM = { original_tag = KUR }
+					FROM.FROM = { state = 815 }
+				}
+				ROOT = { set_country_flag = SYR_took_state_815 }
+			}
+		}
+	}
+	
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					NVX_has_government_ideology_democratic = yes
+					FROM = { NVX_has_government_ideology_authoritarian = yes }
+				}
+				add_to_variable = { NVX_history_wars_declared_moral = 1 }
+				else = {
+					add_to_variable = { NVX_history_wars_declared_immoral = 1 }
+				}
+			}
+			add_to_variable = { NVX_history_wars_declared = 1 }
+			set_variable = { NVX_ECO_pax_months = 0 }
+			if = {
+				limit = { has_idea = government_system_imperial }
+				add_political_power = 50
+			}
+			if = {
+				limit = { has_decision = NVX_policies_M_war_cry }
+				add_stability = 0.02
+			}
+			if = {
+				limit = { check_variable = { NVX_COUP_opposition > 0 } }
+				set_variable = { NVX_COUP_goal_peace = 0 }
+			}
+			FROM = {
+				if = {
+					limit = { PREV = { has_decision = NVX_policies_M_raiding } }
+					NVX_LPA_raiding_set_value = yes
+				}
+			}
+		}
+	}
+	
+	on_capitulation = {
+		effect = {
+			ROOT = {
+				if = {
+					limit = {
+						original_tag = ECU
+						date > 2012.6.19
+						NOT = { has_global_flag = NVX_flag_julian_assange_arrested }
+					}
+					every_country = {
+						news_event = {
+							id = ecuador_news.2
+							days = 7
+						}
+						set_global_flag = NVX_flag_julian_assange_arrested
+					}
+				}
+				if = {
+					limit = { check_variable = { NVX_ECO_health > 0 } }
+					set_variable = { NVX_ECO_health = 0 }
+				}
+				NVX_COUP_end = yes
+				if = {
+					limit = { has_idea = government_system_provisional }
+					set_country_flag = NVX_COUP_provo_conquered
+				}
+			}
+			FROM = {
+				if = {
+					limit = { has_decision = NVX_policies_M_raiding }
+					NVX_LPA_raiding_take_value = yes
+				}
+				if = {
+					limit = { has_decision = NVX_policies_M_war_cry }
+					add_political_power = 100
+				}
+			}
+		}
+	}
+	
+	on_annex = {
+		effect = {
+			ROOT = {
+				if = {
+					limit = {
+						original_tag = ECU
+						date > 2012.6.19
+						NOT = { has_global_flag = NVX_flag_julian_assange_arrested }
+					}
+					every_country = {
+						news_event = {
+							id = ecuador_news.2
+							days = 7
+						}
+						set_global_flag = NVX_flag_julian_assange_arrested
+					}
+				}
+			}
+		}
+	}
+	
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					#country_exists = ROOT
+					NOT = {has_idea = Small_nation}
+				}
+				if = {
+					limit = {
+						is_ai = yes
+					}
+					set_variable = { NVX_nofisc_division_capacity = num_of_factories }
+					if = {
+						limit = { check_variable = { NVX_nofisc_division_capacity < 24 } }
+						set_variable = { NVX_nofisc_division_capacity = 8 }
+					}
+					if = {
+						limit = { is_major = no }
+						divide_variable = { NVX_nofisc_division_capacity = 2 }
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { NVX_ECO_tax_extreme = 0 } } #check if it's broken
+						NVX_LPA_calc_slots = yes
+						NVX_ECO_start = yes
+						NVX_national_preferences_set = yes
+						NVX_COUP_data_set = yes
+					}
+					NVX_ECO_calc = yes
+					NVX_ECO_pax_monthly = yes
+					NVX_LPA_focus_future_monthly = yes
+					NVX_Event_manager_monthly = yes
+				}
+				NVX_ECO_monthly = yes
+				NVX_Estate_manager_monthly = yes
+				if = {
+					limit = {
+						NOT = {has_global_flag = sandbox_disable_aberrant_estate_drift}
+					}
+					NVX_Aberrant_Estate_manager_monthly = yes
+				}
+			}
+			else = {
+				set_variable = { NVX_nofisc_division_capacity = 0 }
+			}
+		}
+	}
+	################# EVENTS ##################
+	on_monthly = {
+        effect = {
+            if = {
+				limit = {
+					check_variable = { EU_space_variable > 0 }
+					NOT = { has_idea = idea_eu_member }
+				}
+				country_event = space_events.5
+            }
+			else_if = {
+				limit = {
+					NOT = { has_variable = EU_space_variable }  
+					has_idea = idea_eu_member
+				}
+				country_event = space_events.6
+			}
+        }
+    }
+    on_monthly_SWE = {
+        effect = {
+            if = {
+                # Checks for if it is Janurary (Year of previous month is a different year of current year)
+                limit = { NOT = { check_variable = { global.last_year = global.year } } }
+                set_variable = { global.last_year = global.year }
+                
+                # KDE System (System that fires pre-determined events with specified dates)
+                add_to_variable = { global.kde_counter = 1 }
+                log = "0: [?global.year]"
+                if = {
+                    limit = { check_variable = { global.kde_counter = 2 } }
+                    meta_effect = {
+                        text = {
+                            KDE_bi_yearly_event_fire_[ID] = yes
+							KDE_GC_bi_yearly_event_fire_[ID] = yes
+                        }
+                        ID = "[?global.year]"
+                    }
+                    
+                    log = "1: [?global.year]"
+                    set_variable = { global.kde_counter = 0 }
+                }
+            }
+        }
+    }
+	on_monthly_UNI = {
+        effect = {
+            if = {
+				limit = {
+					has_war = no
+					ANG = {
+						exists = no
+					}
+					has_government = nationalist
+				}
+				country_event = angola.3
+            }
+        }
+    }
+	on_monthly_ENG = {
+        effect = {
+            if = {
+				limit = {
+					NOT = { has_cosmetic_tag = ENG_England }
+					NOT = { has_country_flag = refused_to_be_england }
+					OR = {	#Scotland
+						AND = {	#Scotland might exist. If it does, it needs to be at peace with Britain.
+							SCO = { exists = yes }
+							NOT = { has_war_with = SCO }
+						}
+						AND = {	#Maybe Britain also lost control of Scotland through war. If the owners of the Scottish states are not at war with Britain, then Scotland is lost. As long as Britain still owns at least one state, Scotland is not yet lost.
+							NOT = { controls_state = 120 }
+							NOT = { controls_state = 121 }
+							NOT = { controls_state = 133 }
+							NOT = { controls_state = 136 }
+							120 = { owner = { NOT = { has_war_with = ENG } } }
+							121 = { owner = { NOT = { has_war_with = ENG } } }
+							133 = { owner = { NOT = { has_war_with = ENG } } }
+							136 = { owner = { NOT = { has_war_with = ENG } } }
+						}
+					}
+					OR = {	#Wales
+						AND = {	#Wales might exist.
+							WLS = { exists = yes }
+							NOT = { has_war_with = WLS }
+						}
+						AND = {	#The state of Wales might have been lost.
+							NOT = { controls_state = 122 }
+							122 = { owner = { NOT = { has_war_with = ENG } } }
+						}
+					}
+				}
+				country_event = britain.1
+            }
+        }
+    }
+	on_monthly_PRC = {
+        effect = {
+            if = {
+				limit = {
+					prc_mao_xinyu = {
+						is_unit_leader = yes
+						skill > 5 #Level 6 over
+					}
+					NOT = { has_completed_focus = PRC_grand_compromise_in_congress }
+				}
+				country_event = {id = pr_china.300  days = 1000}
+            }
+			else_if = {
+				limit = {
+					date > 2016.1.1
+					has_completed_focus = PRC_game_making_business
+				}
+				country_event = {id = pr_china_flavor.5  days = 188}
+			}
+			else_if = {
+				limit = {
+					HKN = { is_puppet_of = PRC }
+					NOT = { has_global_flag = end_hong_kong_conflict }
+					has_war_with = ENG
+				}
+				country_event = pr_china_diplomacy.27
+			}
+        }
+    }
+	on_yearly = {
+		effect = {
+			if = {
+				limit = {
+					#country_exists = ROOT
+					NOT = {has_idea = Small_nation}
+				}
+				if = {
+					limit = {
+						NOT = { has_global_flag = pts_disable_warfaring }
+						has_army_manpower = {
+							size > 1000
+						}
+					}
+					NVX_capricious_wars_check = yes
+				}
+				if = {
+					limit = {
+						is_ai = yes
+					}
+					NVX_ECO_calc = yes
+					NVX_Event_manager_monthly = yes
+				}
+			}
+		}
+	}
+}

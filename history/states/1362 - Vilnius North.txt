@@ -1,0 +1,24 @@
+
+state={
+	id=1362
+	name="STATE_1362"
+
+	history={
+		owner = RUS
+		add_core_of = LIT
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		9295 
+	}
+	manpower=256000
+	buildings_max_level_factor=1.000
+	state_category=state_level_3
+}

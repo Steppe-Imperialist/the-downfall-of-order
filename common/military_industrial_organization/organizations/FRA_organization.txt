@@ -1,0 +1,90 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+ FRA_AMX_organization = {
+	include = generic_tank_organization
+	icon = GFX_idea_generic_tank_manufacturer_2
+
+	allowed = {	
+		OR = {
+			tag = FRA
+		}
+	}
+}
+FRA_nexter_systems_organization = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_FRA_Nexter_Systems
+
+	allowed = {	
+		OR = {
+			tag = FRA
+		}
+	}
+}
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+# FRA_Safran_aircraft_engineering_organization = { #2005
+# 	include = generic_light_aircraft_organization
+# 	icon = GFX_idea_FRA_Safran_Aircraft_Engines
+
+# 	allowed = {	
+# 		OR = {
+# 			tag = FRA
+# 		}
+# 	}
+# }
+FRA_dassault_organization = {
+	include = generic_general_aircraft_organization
+	icon = GFX_idea_dassault
+
+	allowed = {	
+		OR = {
+			tag = FRA
+		}
+	}
+}
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+FRA_nexter_systems_small_arms_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_FRA_Nexter_Systems
+
+	allowed = {	
+		OR = {
+			tag = FRA
+		}
+	}
+}

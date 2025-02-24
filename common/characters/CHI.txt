@@ -1,0 +1,1307 @@
+characters={
+	CHI_kung_techeng={
+		name= CHI_kung_techeng
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Kung_te_cheng.dds"
+			}
+			army={
+				small="GFX_idea_CHI_kung_techeng"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_kung_techeng
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_kung_techeng"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					CHI_confucian_moralist
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+					not  = {
+						has_country_leader  = {
+							character  = CHI_kung_techeng 
+							ruling_only  = yes 
+						}
+					}
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+	}
+	
+	CHI_lee_teng_hui={
+		name=CHI_lee_teng_hui
+		
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Lee_Teng_Hui.dds"
+			}
+			army={
+				small="GFX_idea_CHI_lee_teng_hui"
+			}
+		}
+		
+		country_leader={
+			ideology=big_tent
+			traits = { taiwan_s_last_dictator personal_agenda_lee_teng_hui }
+			desc = "POLITICS_LEE_TENG_HUI_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_lee_teng_hui
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_lee_teng_hui"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					CHI_mr_democracy 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+					not  = {
+						has_country_leader  = {
+							character  = CHI_lee_teng_hui 
+							ruling_only  = yes 
+						}
+					}
+					has_completed_focus  = CHI_coalition_with_lee_teng_hui 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+	}
+	
+	CHI_lien_chan ={
+		name=CHI_lien_chan
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/lien_chan.dds"
+			}
+		}
+		country_leader={
+			ideology=pan_blue_ideology
+			traits = { taiwanese_pan_chinese_nationalist }
+			desc = "POLITICS_LIEN_CHAN_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	CHI_ma_ying_jeou ={
+		name=CHI_ma_ying_jeou
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/ma_ying_jeou.dds"
+			}
+		}
+		country_leader={
+			ideology=pan_blue_ideology
+			traits = { taiwanese_pan_chinese_nationalist }
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	CHI_chen_shuibian={
+		name=CHI_chen_shuibian
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Chen_Shui_Bian.dds"
+			}
+		}
+		country_leader={
+			ideology=pan_green_ideology
+			traits = { fighter_of_liberty_for_taiwan personal_agenda_chen_shui_bian }
+			desc = "POLITICS_CHEN_SHUI_BIAN_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	CHI_annette_lu={
+		name=CHI_annette_lu
+		
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/annette_lu.dds"
+			}
+			army={
+				small="GFX_idea_CHI_annette_lu"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_annette_lu
+			on_add  = {
+				log  = "[GetDateText]: [Root.GetName]: add idea CHI_annette_lu"
+			}
+			traits  = {
+				taiwanese_feminist_adviser 
+			}
+			cost  = 150.000
+			removal_cost  = 0.000
+			available  = {
+				not  = {
+					has_country_flag  = CHI_lu_dead 
+				}
+				not  = {
+					has_country_leader  = {
+						character  = CHI_annette_lu 
+						ruling_only  = yes 
+					}
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		
+		gender = female
+		
+		country_leader={
+			ideology=pan_green_ideology
+			traits = { taiwanese_feminist personal_agenda_annette_lu }
+			desc = "POLITICS_ANNETTE_LU_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	CHI_wu_shu_chen={
+		name=CHI_wu_shu_chen
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_wu_shu_chen
+			on_add  = {
+				log  = "[GetDateText]: [Root.GetName]: add idea CHI_wu_shu_chen"
+			}
+			traits  = {
+				woman_of_steel 
+			}
+			cost  = 150.000
+			removal_cost  = 0.000
+			available  = {
+				not  = {
+					has_country_leader  = {
+						character  = CHI_wu_shu_chen 
+						ruling_only  = yes 
+					}
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/wu_shu_chen.dds"
+			}
+			army={
+				small="GFX_idea_CHI_wu_shu_chen"
+			}
+		}
+		
+		gender = female
+		
+		country_leader={
+			ideology=pan_green_ideology
+			traits = { shadow_of_chen personal_agenda_wu_shu_chen }
+			desc = "POLITICS_WU_SHU_CHEN_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	CHI_frank_hsieh={
+		name=CHI_frank_hsieh
+		
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/frank_hsieh.dds"
+			}
+			army={
+				small="GFX_idea_CHI_frank_hsieh"
+			}
+		}
+		
+		country_leader={
+			ideology=pan_green_ideology
+			traits = { musketeer_of_tangwai personal_agenda_frank_hsieh }
+			expire="1.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_frank_hsieh
+			on_add  = {
+				log  = "[GetDateText]: [Root.GetName]: add idea CHI_frank_hsieh"
+			}
+			traits  = {
+				musketeer_of_tangwai_adviser 
+			}
+			cost  = 150.000
+			removal_cost  = 0.000
+			available  = {
+				not  = {
+					has_country_leader  = {
+						character  = CHI_frank_hsieh 
+						ruling_only  = yes 
+					}
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	
+	CHI_yu_shyi_kun={
+		name=CHI_yu_shyi_kun
+		
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/yu_shyi_kun.dds"
+			}
+			army={
+				small="GFX_idea_CHI_yu_shyi_kun"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_yu_shyi_kun
+			on_add  = {
+				log  = "[GetDateText]: [Root.GetName]: add idea CHI_yu_shyi_kun"
+			}
+			traits  = {
+				hardline_independence_activist 
+			}
+			cost  = 150.000
+			removal_cost  = 0.000
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	
+	CHI_tsai_ing_wen={
+		name=CHI_tsai_ing_wen
+		
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/tsai_ing_wen.dds"
+			}
+			army={
+				small="GFX_idea_CHI_tsai_ing_wen"
+			}
+		}
+		
+		gender = female
+		
+		country_leader={
+			ideology=social_democrat_ideology
+			traits = { taiwan_progressive_reformist personal_agenda_tsai_ing_wen }
+			expire="1.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_tsai_ing_wen
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_tsai_ing_wen"
+				}
+				traits  = {
+					taiwan_progressive_reformist_adviser 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				available  = {
+					not  = {
+						has_country_leader  = {
+							character  = CHI_tsai_ing_wen 
+							ruling_only  = yes 
+						}
+					}
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+	}
+	
+	CHI_chiu_kuocheng={
+		name= CHI_chiu_kuocheng
+		portraits={
+			army={
+				small="GFX_idea_CHI_chiu_kuo_cheng"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/Chiu_Kuo_Cheng.dds"
+			}
+		}
+		
+		field_marshal={
+			traits={ urban_assault_specialist defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+		
+		advisor={
+			slot = army_chief
+			idea_token = CHI_chiu_kuocheng
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_drill_1
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	CHI_yen_tehfa={
+		name= CHI_yen_tehfa
+		portraits={
+			army={
+				small="GFX_idea_CHI_Yen_Teh_Fa"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/Yen_Teh_Fa.dds"
+			}
+		}
+		corps_commander={
+			traits={ media_personality }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	
+	CHI_chen_chuankuan={
+		name=CHI_chen_chuankuan
+		portraits={
+			army={
+				small="GFX_idea_CHI_Chen_Chuan_Kuan"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/Chen_Chuan_Kuan.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		
+		advisor={
+			slot = army_chief
+			idea_token = CHI_chen_chuankuan
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_organizational_1
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	CHI_lo_hsien_che={
+		name=CHI_lo_hsien_che
+		portraits={
+			army={
+				small="GFX_idea_CHI_lo_hsien_che"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/lo_hsien_che.dds"
+			}
+		}
+		
+		#corps_commander={
+		#	traits={ politically_connected trait_chi_pan_nationalist_traits }
+		#	skill=1
+		#	attack_skill=1
+		#	defense_skill=1
+		#	planning_skill=1
+		#	logistics_skill=1
+		#	legacy_id=-1
+		#}
+		
+		#advisor={
+		#	slot = high_command
+		#	idea_token = CHI_lo_hsien_che
+		#	ledger = army
+		#	allowed = {
+		#		original_tag = CHI
+		#	}
+		#	traits = {
+		#		army_infantry_1
+		#	}
+		#	ai_will_do = {
+		#		factor = 1.000
+		#	}
+		#}
+	}
+	
+	CHI_lee_cheng_lin={
+		name=CHI_lee_cheng_lin
+		portraits={
+			army={
+				small="GFX_idea_CHI_lee_cheng_lin"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/lee_cheng_lin.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist trait_engineer skilled_staffer }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	
+	CHI_lee_shyingjow={
+		name=CHI_lee_shyingjow
+		portraits={
+			army={
+				small="GFX_idea_CHI_Lee_Shying_Jow"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/Lee_Shying_Jow.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = CHI_lo_hsien_che
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_CombinedArms_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	CHI_chai_huichen={
+		name=CHI_chai_huichen
+		portraits={
+			army={
+				small="GFX_idea_CHI_Chai_Hui_Chen"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/Chai_Hui_Chen.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+		
+		advisor={
+			slot = army_chief
+			idea_token = CHI_chai_huichen
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	CHI_huo_shou_ye={
+		name=CHI_huo_shou_ye
+		portraits={
+			army={
+				small="GFX_idea_CHI_huo_shou_ye"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/huo_shou_ye.dds"
+			}
+		}
+		
+		field_marshal={
+			traits={ brilliant_strategist armor_officer trait_engineer trait_chi_patriot_traits }
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = CHI_huo_shou_ye
+			ledger = army
+			
+			cost = 100
+			
+			allowed = {
+				original_tag = CHI
+			}
+			
+			traits = {
+				army_armored_2
+			}
+			
+			ai_will_do = {
+				factor = 3.000
+			}
+		}
+	}
+	
+	CHI_luo_ben_li={
+		name=CHI_luo_ben_li
+		portraits={
+			army={
+				small="GFX_idea_CHI_luo_ben_li"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/luo_ben_li.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero trickster trait_chi_patriot_traits }
+			#War Hero - 1947 Chinese Communist Revolution, 1996 Third Taiwan Strait Crisis
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = CHI_luo_ben_li
+			ledger = army
+			allowed = {
+				original_tag = CHI
+			}
+			cost = 100
+			traits = {
+				army_artillery_2
+			}
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	
+	CHI_tang_yao_ming={
+		name=CHI_tang_yao_ming
+		portraits={
+			army={
+				small="GFX_idea_CHI_tang_yao_ming"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/tang_yao_ming.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer politically_connected trait_chi_patriot_traits }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	CHI_hu_chen_pu={
+		name=CHI_hu_chen_pu
+		portraits={
+			army={
+				small="GFX_idea_CHI_hu_chen_pu"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/hu_chen_pu.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard politically_connected media_personality armor_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	
+	CHI_kao_kuangchi={
+		name=CHI_kao_kuangchi
+		portraits={
+			army={
+				small="GFX_idea_CHI_kao_kuang_chi"
+			}
+			army={
+				large="gfx/leaders/CHI/admirals/Kao_Kuang_Chi.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	
+	CHI_lee_hsimin={
+		name=CHI_lee_hsimin
+		portraits={
+			army={
+				small="GFX_idea_CHI_lee_hsi_min"
+			}
+			army={
+				large="gfx/leaders/CHI/admirals/Lee_Hsi_Min.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+		
+		advisor={
+			slot = navy_chief
+			idea_token = CHI_lee_hsimin
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				navy_chief_maneuver_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	CHI_lin_chenyi={
+		name= CHI_lin_chenyi
+		portraits={
+			army={
+				small="GFX_idea_CHI_lin_chen_yi"
+			}
+			army={
+				large="gfx/leaders/CHI/admirals/Lin_Chen_Yi.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = CHI_lin_chenyi
+			ledger = navy
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				navy_naval_air_defense_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		advisor={
+			slot = navy_chief
+			idea_token = CHI_lin_chenyi
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				navy_chief_naval_aviation_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	CHI_hau_pei_tsun ={
+		name= CHI_hau_pei_tsun
+		portraits={
+			army={
+				small="gfx/interface/ideas/CHI/adviser/CHI_hau_pei_tsun.dds"
+			}
+			army={
+				large="gfx/leaders/CHI/generals/hau_pei_tsun.dds"
+			}
+		}
+		
+		advisor={
+			slot = army_chief
+			idea_token = CHI_hau_pei_tsun
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+				NOT = { has_character_flag = CHI_purged_generals }
+			}
+			traits = {
+				army_chief_old_guard
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+	
+	CHI_feng_shih_kuan={
+		name=CHI_feng_shih_kuan
+		portraits={
+			army={
+				small="GFX_idea_CHI_feng_shih_kuan"
+			}
+		}
+		
+		advisor={
+			slot = high_command
+			idea_token = CHI_feng_shih_kuan
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				air_pilot_training_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	CHI_taiwanese_military_academy={
+		name=CHI_taiwanese_military_academy
+		portraits={
+			army={
+				small="GFX_idea_chi_whampoa_military_academy"
+			}
+		}
+		
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = CHI_taiwanese_military_academy
+			allowed = {
+				original_tag = CHI
+			}
+			
+			available = { 
+				has_completed_focus = CHI_taiwan_officer_training_centres
+			}
+			
+			traits = {
+				CHI_tradition_of_whampoa
+			}
+			
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+	CHI_kuma_academy={
+		name=CHI_kuma_academy
+		portraits={
+			army={
+				small="GFX_idea_SPR_anarchist_council"
+			}
+		}
+		
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = CHI_kuma_academy
+			ledger = military
+			allowed = {
+				original_tag = CHI
+			}
+			traits = {
+				militia_training_centre_trait
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	
+
+	CHI_chen_tien_fu={
+		name=CHI_chen_tien_fu
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/chen_tien_fu.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism_with_ccp
+			traits = {  }
+			desc = "POLITICS_CHEN_TIEN_FU_DESC"
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	
+	CHI_james_soong={
+		name=CHI_james_soong
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/james_soong.dds"
+			}
+		}
+	}
+	
+	CHI_zhang_xueliang={
+		name=CHI_zhang_xueliang
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/zhang_xueliang.dds"
+			}
+		}
+	}
+	
+	CHI_ministry_of_national_defense={
+		name=CHI_ministry_of_national_defense
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/CHI_ministry_of_national_defense.dds"
+			}
+		}
+	}
+	
+	CHI_chen_bi_e={
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_chen_bi_e
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_chen_bi_e"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					mother_huang 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="CHI_chen_bi_e"
+		portraits={
+			army={
+				small="GFX_idea_CHI_chen_bi_e"
+			}
+		}
+	}
+	CHI_wang_ginn_wang={
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_wang_ginn_wang
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_wang_ginn_wang"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					head_of_intelligence 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="CHI_wang_ginn_wang"
+		portraits={
+			army={
+				small="GFX_idea_CHI_wang_ginn_wang"
+			}
+		}
+	}
+	CHI_shih_ming_teh={
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_shih_ming_teh
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_shih_ming_teh"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					taiwan_s_mandela 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="CHI_shih_ming_teh"
+		portraits={
+			army={
+				small="GFX_idea_CHI_shih_ming_teh"
+			}
+		}
+	}
+	CHI_chang_chun_hsiung={
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_chang_chun_hsiung
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_chang_chun_hsiung"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					KOR_human_rights_lawyer 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="CHI_chang_chun_hsiung"
+		portraits={
+			army={
+				small="GFX_idea_CHI_chang_chun_hsiung"
+			}
+		}
+	}
+
+	CHI_chi_chia_wei={
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_chi_chia_wei
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_chi_chia_wei"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					gay_rights_activist 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="CHI_chi_chia_wei"
+		portraits={
+			army={
+				small="GFX_idea_CHI_chi_chia_wei"
+			}
+		}
+	}
+	
+	CHI_lisa_su={
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_lisa_su
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_lisa_su"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					computer_engineering_entrepreneur 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="CHI_lisa_su"
+		portraits={
+			army={
+				small="GFX_idea_CHI_lisa_su"
+			}
+		}
+	}
+	
+	CHI_audrey_tang={
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_audrey_tang
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_audrey_tang"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					genius_programmer 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+					has_completed_focus  = CHI_recruiting_talents 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="CHI_audrey_tang"
+		portraits={
+			army={
+				small="GFX_idea_CHI_audrey_tang"
+			}
+		}
+	}
+	
+	CHI_su_tseng_chang={
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_su_tseng_chang
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_su_tseng_chang"
+				}
+				allowed  = {
+					original_tag  = CHI
+				}
+				traits  = {
+					experienced_politician 
+				}
+				cost  = 150.000
+				removal_cost  = 0.000
+				visible  = {
+				}
+				available  = {
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="CHI_su_tseng_chang"
+		portraits={
+			army={
+				small="GFX_idea_CHI_su_tseng_chang"
+			}
+		}
+	}
+	
+	CHI_lee_wen_chung={
+		name=CHI_lee_wen_chung
+		portraits={
+			army={
+				small="GFX_idea_CHI_lee_wen_chung"
+			}
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = CHI_lee_wen_chung
+			on_add  = {
+					log  = "[GetDateText]: [Root.GetName]: add idea CHI_lee_wen_chung"
+				}
+				
+				allowed  = {
+					original_tag  = CHI
+				}
+				
+				traits  = {
+					connected_citizen
+				}
+				
+				cost  = 150.000
+				removal_cost  = 0.000
+				
+				visible  = {
+				}
+				
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+	}
+	
+	CHI_shen_yi_ming={
+		advisor={
+			slot = air_chief
+			idea_token = CHI_shen_yi_ming
+			allowed = {
+				original_tag = CHI
+			}
+
+			traits = {
+				air_chief_reform_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name="CHI_shen_yi_ming"
+		portraits={
+			army={
+				small="GFX_idea_CHI_shen_yi_ming"
+			}
+		}
+	}
+	
+	CHI_chen_shen_ling={
+		advisor={
+			slot = air_chief
+			idea_token = CHI_chen_shen_ling
+			allowed = {
+				original_tag = CHI
+			}
+
+			traits = {
+				air_chief_old_guard
+			}
+			ai_will_do = {
+				factor = 0.750
+			}
+		}
+		name="CHI_chen_shen_ling"
+		portraits={
+			army={
+				small="GFX_idea_CHI_chen_shen_ling"
+			}
+		}
+	}
+	
+	
+	
+	CHI_chen_chao_min={
+		advisor={
+			slot = air_chief
+			idea_token = CHI_chen_chao_min
+			allowed = {
+				original_tag = CHI
+			}
+
+			traits = {
+				air_chief_safety_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name="CHI_chen_chao_min"
+		portraits={
+			army={
+				small="GFX_idea_CHI_chen_chao_min"
+			}
+		}
+	}
+	
+}

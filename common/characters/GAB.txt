@@ -1,0 +1,207 @@
+characters={
+	GAB_basile_mve_engine={
+		#name="Basile Mvé Engine"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Basile_Mve_Engine.dds"
+			}
+		}
+		country_leader={
+			ideology=christian_theocracy
+			expire="1.1.1.1"
+			id=-1
+		}
+	}	
+	GAB_omar_bongo={
+		#name="Omar Bongo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Omar_Bongo.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalist
+			traits = {
+				corrupt_autocrat
+			}
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=autocrat
+			traits = {
+				corrupt_autocrat
+			}
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_mbongo_ntchounga={
+		#name="Mbongo Ntchounga"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Mbongo_Ntchounga.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_ali_bongo_ondimba={
+		#name="Ali Bongo Ondimba"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Ali_Bongo_Ondimba.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democrat #Slightly better than his father, but that's not saying much, is it?
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_jean_fracois_ntoutoume_emane={
+		#name="Jean-François Ntoutoume Emane"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Jean_Francois_Ntoutoume_Emane.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_paul_toungui={
+		#name="Paul Toungui"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Paul_Toungui.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_casimir_oye_mba={
+		#name="Casimir Oyé-Mba"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Casimir_Oye_Mba.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_pierre_mamboundou={
+		#name="Pierre Mamboundou"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Pierre_Mamboundou.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_marc_ona_essangui={
+		#name="Marc Ona Essangui"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Marc_Ona_Essangui.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_paul_mba_abessole={
+		#name="Paul Mba Abessole"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Paul_Mba_Abessole.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_guy_nang_bekale={
+		#name="Guy Nang Békalé"
+		portraits={
+			civilian={
+				large="gfx/leaders/GAB/Guy_Nang_Bekale.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist #I will admit it is a stretch, but look, it's Gabon, I'm already grasping at straws as is
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GAB_jean_claude_ella_ekogha = {
+		#name = "Jean Claude Ella-Ekogha"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/GAB/generals/Jean_Claude_Ella_Ekogha.dds"
+				large = "gfx/leaders/GAB/Jean_Claude_Ella_Ekogha.dds"
+			}
+		}
+		field_marshal = {
+			traits = { defensive_doctrine logistics_wizard }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	GAB_jean_martin_ossima_ndong = {
+		#name = "Jean Martin Ossima Ndong"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/GAB/generals/Jean_Martin_Ossima_Ndong.dds"
+				large = "gfx/leaders/GAB/Jean_Martin_Ossima_Ndong.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	GAB_auguste_bibaye_itandas = {
+		#name = "Auguste Bibaye Itandas"
+		portraits = {
+			army = {
+				small = "gfx/interface/ideas/GAB/generals/Auguste_Bibaye_Itandas.dds"
+				large = "gfx/leaders/GAB/Auguste_Bibaye_Itandas.dds"
+			}
+		}
+		corps_commander = {
+			traits = { engineer fortress_buster }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}	
+}

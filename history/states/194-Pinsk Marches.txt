@@ -1,0 +1,28 @@
+
+state={
+	id=194
+	name="STATE_194"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = RUS
+		add_core_of = BLR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		215 304 331 3203 3293 3350 3507 6319 6373 9249 9449 11313
+	}
+	manpower=774632
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+	local_supplies=0.000
+}

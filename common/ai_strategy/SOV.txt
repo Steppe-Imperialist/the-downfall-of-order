@@ -1,0 +1,35 @@
+common_ai_behaviour_RUS = {
+	enable = {
+		tag = RUS
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = befriend
+		id = NOV
+		value = 75
+	}
+}
+
+seek_russian_alliance = {
+	enable = {
+		NOT = { tag = RUS }
+		has_country_flag = seeks_russian_alliance
+	}
+	
+	abort = {
+		NOT = { has_country_flag = seeks_russian_alliance }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "RUS"
+		value = 150
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RUS"
+		value = 150
+	}
+}

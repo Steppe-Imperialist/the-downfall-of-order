@@ -1,0 +1,64 @@
+set_Guides_1_array = {
+	clear_array = Guides_1_array
+
+	if = {
+		limit = {
+			tag = ARM #This allows us to do country specific guides
+		}
+		add_to_array = { Guides_1_array = 6 }
+	}
+	if = {
+		limit = {
+			tag = RUS #USSR Guide
+			has_global_flag = GC_is_on
+		}
+		add_to_array = { Guides_1_array = 7 }
+	}
+	if = {
+		limit = {
+			tag = JAP #Militant Japan
+		}
+		add_to_array = { Guides_1_array = 10 }
+	}
+	if = {
+		limit = {
+			tag = KOR
+		}
+		add_to_array = { Guides_1_array = 11 }
+	}
+	if = {
+		limit = {
+			tag = POL
+			has_global_flag = GC_is_on
+		}
+		add_to_array = { Guides_1_array = 12 } #anarcho
+		add_to_array = { Guides_1_array = 13 } #techno
+	}
+	if = {
+		limit = {
+			tag = CHI
+		}
+		add_to_array = { Guides_1_array = 14 }
+	}
+	if = {
+		limit = {
+			tag = ENG
+			has_global_flag = GC_is_on
+		}
+		add_to_array = { Guides_1_array = 15 } #Radical paths
+	}
+	add_to_array = { Guides_1_array = 0 } # Estates
+	add_to_array = { Guides_1_array = 1 } # Estates TLDR
+	add_to_array = { Guides_1_array = 2 } #Caprcious Wars
+	add_to_array = { Guides_1_array = 3 } #Government & Economy
+	add_to_array = { Guides_1_array = 4 } #State Coring
+	add_to_array = { Guides_1_array = 5 } #Economy
+	add_to_array = { Guides_1_array = 8 }
+	add_to_array = { Guides_1_array = 9 }
+
+	clear_variable = var_set_Guides_1_array_idx
+	set_variable = {var_set_Guides_1_array_idx = 1}
+}
+update_GNSS_system_stats = {
+	set_variable = { var_Guides_1_num = Guides_1_array^var_Guides_1_idx }
+}

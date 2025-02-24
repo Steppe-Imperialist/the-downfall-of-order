@@ -1,0 +1,101 @@
+ENG = {
+    set_country_flag = gc_elections
+    set_variable = { SCO_independence_support_shown = 0.34 }
+    set_variable = { SCO_independence_support = 56 }
+    add_ideas = {
+        ENG_financial_hub
+        ENG_scottish_costs
+        ENG_manpower_shortages
+        ENG_rail_franchises
+    }
+    recruit_character = ENG_ben_wallace
+    recruit_character = ENG_ed_miliband
+    recruit_character = ENG_gordan_brown
+    recruit_character = ENG_david_cameron
+    recruit_character = ENG_nick_clegg
+}
+GER = {
+    set_country_flag = gc_elections
+    recruit_character = GER_Edmund_Stoiber
+    recruit_character = GER_Guido_Westerwelle
+    recruit_character = GER_Katrin_Goring_Eckardt
+    recruit_character = GER_Frank_Walter_Steinmeier
+    recruit_character = GER_Oskar_Lafontaine
+    recruit_character = GER_Sahra_Wagenknecht
+    recruit_character = GER_Peer_Steinbrueck
+    recruit_character = GER_Armin_Laschet
+    recruit_character = GER_Anarchist_Council
+    recruit_character = GER_Christof_Leng
+    recruit_character = GER_Martin_Sonneborn
+    recruit_character = GER_Alexander_Gauland
+    recruit_character = GER_Alice_Weidel
+    recruit_character = GER_Bernd_Lucke
+    recruit_character = GER_Frauke_Petry
+    recruit_character = GER_Janine_Wissler
+    recruit_character = GER_Dietmar_Bartsch
+    recruit_character = GER_Martin_Schulz
+    recruit_character = GER_Olaf_Scholz
+    recruit_character = GER_Sigmar_Gabriel
+    recruit_character = GER_Phillip_Roesler
+    recruit_character = GER_Christian_Lindner
+    recruit_character = GER_Annalena_Baerbock
+    recruit_character = GER_Cem_Ozdemir
+    #recruit_character = GER_udo_voigt already in!
+    #recruit_character = GER_Gerhard_Frey
+    #recruit_character = GER_Egon_Karp
+    #recruit_character = GER_Heinz_Stehr
+    64 = { #state id
+        add_dynamic_modifier = { modifier = GER_East_German_Infrastructure_Issues } #add state modifier
+    }
+    61 = { #state id
+        add_dynamic_modifier = { modifier = GER_East_German_Infrastructure_Issues } #add state modifier
+    }
+    68 = { #state id
+        add_dynamic_modifier = { modifier = GER_East_German_Infrastructure_Issues } #add state modifier
+    }
+    65 = { #state id
+        add_dynamic_modifier = { modifier = GER_East_German_Infrastructure_Issues } #add state modifier
+    }
+    60 = { #state id
+        add_dynamic_modifier = { modifier = GER_East_German_Infrastructure_Issues } #add state modifier
+    }
+    add_ideas = {
+        GER_poorly_funded_military
+        # GER_debt_brake 2016 thing
+        GER_high_unemployment
+        GER_low_military_conscription
+        GER_low_birth_rates
+        GER_bwb
+    }
+}
+
+
+#### 2000 fired events
+GER = {
+    news_event = {id = germany.4 days = 17}
+    news_event = {id = germany.8 days = 23}
+    news_event = {id = germany.10 days = 152}
+    #country_event = germany.9 February 4, 2000 bit rapid fire
+}
+ISR = {
+    news_event = {id = usa.52 days = 3}
+}
+RCD = {
+    country_event = {id = congo.6  days = 300}
+}
+SYR = {
+    news_event = {id = usa.52 days = 3}
+}
+USA = {
+    news_event = {id = usa.52 days = 3}
+    country_event = {id = usa.50  days = 106}
+    country_event = {id = usa.7  days = 10}
+    news_event = {id = usa.9  days = 30}
+    news_event = {id = usa.10  days = 43}
+    #country_event = usa.55 purged due to excessive flavour
+    #country_event = usa.5 purged  ^
+    #country_event = usa.3 purged  ^
+    #country_event = usa.4 purged  ^
+    #country_event = usa.6 purged ^ but is natural disaster so maybe return
+    country_event = {id = exact_date_trigger.149 days = 148 }
+}

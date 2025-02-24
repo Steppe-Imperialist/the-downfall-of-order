@@ -1,0 +1,795 @@
+﻿# Written by E. Wolfe #
+
+add_namespace = political
+add_namespace = generic_political_news
+
+# Establish Fourth and Fifth Estates #
+country_event = {
+	id = political.0
+	title = political.0.t
+	desc = political.0.d
+	picture = GFX_report_event_political_gathering
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	immediate = {
+		hidden_effect = { remove_all_estates = yes }
+		## FOURTH ESTATES ##
+		# DEMOCRACIES #
+		if = {
+			limit = { NVX_has_government_system_democratic = yes }
+			if = {
+				limit = { islamist < 0.199 }
+			}
+			else_if = {
+				limit = { islamist > 0.199 islamist < 0.30 }
+				add_ideas = fourth_estate_islamist1
+			}
+			else_if = {
+				limit = { islamist < 0.40 }
+				add_ideas = fourth_estate_islamist2
+			}
+			else_if = {
+				limit = { islamist < 0.50 }
+				add_ideas = fourth_estate_islamist3
+			}
+			else_if = {
+				limit = { islamist < 0.60 }
+				add_ideas = fourth_estate_islamist4
+			}
+			else_if = {
+				limit = { islamist > 0.599 }
+				add_ideas = fourth_estate_islamist5
+			}
+			if = {
+				limit = { fascist < 0.199 }
+			}
+			else_if = {
+				limit = { fascist > 0.199 fascist < 0.30 }
+				add_ideas = fourth_estate_fascist1
+			}
+			else_if = {
+				limit = { fascist < 0.40 }
+				add_ideas = fourth_estate_fascist2
+			}
+			else_if = {
+				limit = { fascist < 0.50 }
+				add_ideas = fourth_estate_fascist3
+			}
+			else_if = {
+				limit = { fascist < 0.60 }
+				add_ideas = fourth_estate_fascist4
+			}
+			else_if = {
+				limit = { fascist > 0.599 }
+				add_ideas = fourth_estate_fascist5
+			}
+			if = {
+				limit = { nationalist < 0.199 }
+			}
+			else_if = {
+				limit = { nationalist < 0.30 }
+				add_ideas = fourth_estate_nationalist1
+			}
+			else_if = {
+				limit = { nationalist < 0.40 }
+				add_ideas = fourth_estate_nationalist2
+			}
+			else_if = {
+				limit = { nationalist < 0.50 }
+				add_ideas = fourth_estate_nationalist3
+			}
+			else_if = {
+				limit = { nationalist < 0.60 }
+				add_ideas = fourth_estate_nationalist4
+			}
+			else_if = {
+				limit = { nationalist > 0.599 }
+				add_ideas = fourth_estate_nationalist5
+			}
+			if = {
+				limit = { monarchist < 0.199 }
+			}
+			else_if = {
+				limit = { monarchist < 0.30 }
+				add_ideas = fourth_estate_monarchist1
+			}
+			else_if = {
+				limit = { monarchist < 0.40 }
+				add_ideas = fourth_estate_monarchist2
+			}
+			else_if = {
+				limit = { monarchist < 0.50 }
+				add_ideas = fourth_estate_monarchist3
+			}
+			else_if = {
+				limit = { monarchist < 0.60 }
+				add_ideas = fourth_estate_monarchist4
+			}
+			else_if = {
+				limit = { monarchist > 0.599 }
+				add_ideas = fourth_estate_monarchist5
+			}
+			if = {
+				limit = { reactionary < 0.199 }
+			}
+			else_if = {
+				limit = { reactionary > 0.199 reactionary < 0.30 }
+				add_ideas = fourth_estate_reactionary1
+			}
+			else_if = {
+				limit = { reactionary < 0.40 }
+				add_ideas = fourth_estate_reactionary2
+			}
+			else_if = {
+				limit = { reactionary < 0.50 }
+				add_ideas = fourth_estate_reactionary3
+			}
+			else_if = {
+				limit = { reactionary < 0.60 }
+				add_ideas = fourth_estate_reactionary4
+			}
+			else_if = {
+				limit = { reactionary > 0.599 }
+				add_ideas = fourth_estate_reactionary5
+			}
+			if = {
+				limit = { conservative < 0.199 }
+			}
+			else_if = {
+				limit = { conservative > 0.199 conservative < 0.30 }
+				add_ideas = fourth_estate_conservative1
+			}
+			else_if = {
+				limit = { conservative < 0.40 }
+				add_ideas = fourth_estate_conservative2
+			}
+			else_if = {
+				limit = { conservative < 0.50 }
+				add_ideas = fourth_estate_conservative3
+			}
+			else_if = {
+				limit = { conservative < 0.60 }
+				add_ideas = fourth_estate_conservative4
+			}
+			else_if = {
+				limit = { conservative > 0.599 }
+				add_ideas = fourth_estate_conservative5
+			}
+			if = {
+				limit = { market_liberal < 0.199 }
+			}
+			else_if = {
+				limit = { market_liberal > 0.199 market_liberal < 0.30 }
+				add_ideas = fourth_estate_market_liberal1
+			}
+			else_if = {
+				limit = { market_liberal < 0.40 }
+				add_ideas = fourth_estate_market_liberal2
+			}
+			else_if = {
+				limit = { market_liberal < 0.50 }
+				add_ideas = fourth_estate_market_liberal3
+			}
+			else_if = {
+				limit = { market_liberal < 0.60 }
+				add_ideas = fourth_estate_market_liberal4
+			}
+			else_if = {
+				limit = { market_liberal > 0.599 }
+				add_ideas = fourth_estate_market_liberal5
+			}
+			if = {
+				limit = { social_liberal < 0.199 }
+			}
+			else_if = {
+				limit = { social_liberal > 0.199 social_liberal < 0.30 }
+				add_ideas = fourth_estate_social_liberal1
+			}
+			else_if = {
+				limit = { social_liberal < 0.40 }
+				add_ideas = fourth_estate_social_liberal2
+			}
+			else_if = {
+				limit = { social_liberal < 0.50 }
+				add_ideas = fourth_estate_social_liberal3
+			}
+			else_if = {
+				limit = { social_liberal < 0.60 }
+				add_ideas = fourth_estate_social_liberal4
+			}
+			else_if = {
+				limit = { social_liberal > 0.599 }
+				add_ideas = fourth_estate_social_liberal5
+			}
+			if = {
+				limit = { social_democrat < 0.199 }
+			}
+			else_if = {
+				limit = { social_democrat > 0.199 social_democrat < 0.30 }
+				add_ideas = fourth_estate_social_democrat1
+			}
+			else_if = {
+				limit = { social_democrat < 0.40 }
+				add_ideas = fourth_estate_social_democrat2
+			}
+			else_if = {
+				limit = { social_democrat < 0.50 }
+				add_ideas = fourth_estate_social_democrat3
+			}
+			else_if = {
+				limit = { social_democrat < 0.60 }
+				add_ideas = fourth_estate_social_democrat4
+			}
+			else_if = {
+				limit = { social_democrat > 0.599 }
+				add_ideas = fourth_estate_social_democrat5
+			}
+			if = {
+				limit = { progressive < 0.199 }
+			}
+			else_if = {
+				limit = { progressive > 0.199 progressive < 0.30 }
+				add_ideas = fourth_estate_progressive1
+			}
+			else_if = {
+				limit = { progressive < 0.40 }
+				add_ideas = fourth_estate_progressive2
+			}
+			else_if = {
+				limit = { progressive < 0.50 }
+				add_ideas = fourth_estate_progressive3
+			}
+			else_if = {
+				limit = { progressive < 0.60 }
+				add_ideas = fourth_estate_progressive4
+			}
+			else_if = {
+				limit = { progressive > 0.599 }
+				add_ideas = fourth_estate_progressive5
+			}
+			if = {
+				limit = { democratic_socialist < 0.199 }
+			}
+			else_if = {
+				limit = { democratic_socialist > 0.199 democratic_socialist < 0.30 }
+				add_ideas = fourth_estate_democratic_socialist1
+			}
+			else_if = {
+				limit = { democratic_socialist < 0.40 }
+				add_ideas = fourth_estate_democratic_socialist2
+			}
+			else_if = {
+				limit = { democratic_socialist < 0.50 }
+				add_ideas = fourth_estate_democratic_socialist3
+			}
+			else_if = {
+				limit = { democratic_socialist < 0.60 }
+				add_ideas = fourth_estate_democratic_socialist4
+			}
+			else_if = {
+				limit = { democratic_socialist > 0.599 }
+				add_ideas = fourth_estate_democratic_socialist5
+			}
+			if = {
+				limit = { communist < 0.199 }
+			}
+			else_if = {
+				limit = { communist > 0.199 communist < 0.30 }
+				add_ideas = fourth_estate_communist1
+			}
+			else_if = {
+				limit = { communist < 0.40 }
+				add_ideas = fourth_estate_communist2
+			}
+			else_if = {
+				limit = { communist < 0.50 }
+				add_ideas = fourth_estate_communist3
+			}
+			else_if = {
+				limit = { communist < 0.60 }
+				add_ideas = fourth_estate_communist4
+			}
+			else_if = {
+				limit = { communist > 0.599 }
+				add_ideas = fourth_estate_communist5
+			}
+		}
+		# AUTOCRACIES #
+		if = {
+			limit = { NVX_has_government_system_authoritarian = yes }
+			if = {
+				limit = { has_government = islamist }
+				if = {
+					limit = { islamist < 0.30 }
+					add_ideas = fourth_estate_islamist1
+				}
+				else_if = {
+					limit = { islamist < 0.40 }
+					add_ideas = fourth_estate_islamist2
+				}
+				else_if = {
+					limit = { islamist < 0.50 }
+					add_ideas = fourth_estate_islamist3
+				}
+				else_if = {
+					limit = { islamist < 0.60 }
+					add_ideas = fourth_estate_islamist4
+				}
+				else_if = {
+					limit = { islamist > 0.599 }
+					add_ideas = fourth_estate_islamist5
+				}
+			}
+			if = {
+				limit = { has_government = fascist }
+				if = {
+					limit = { fascist < 0.30 }
+					add_ideas = fourth_estate_fascist1
+				}
+				else_if = {
+					limit = { fascist < 0.40 }
+					add_ideas = fourth_estate_fascist2
+				}
+				else_if = {
+					limit = { fascist < 0.50 }
+					add_ideas = fourth_estate_fascist3
+				}
+				else_if = {
+					limit = { fascist < 0.60 }
+					add_ideas = fourth_estate_fascist4
+				}
+				else_if = {
+					limit = { fascist > 0.599 }
+					add_ideas = fourth_estate_fascist5
+				}
+			}
+			if = {
+				limit = { has_government = nationalist }
+				if = {
+					limit = { nationalist < 0.30 }
+					add_ideas = fourth_estate_nationalist1
+				}
+				else_if = {
+					limit = { nationalist < 0.40 }
+					add_ideas = fourth_estate_nationalist2
+				}
+				else_if = {
+					limit = { nationalist < 0.50 }
+					add_ideas = fourth_estate_nationalist3
+				}
+				else_if = {
+					limit = { nationalist < 0.60 }
+					add_ideas = fourth_estate_nationalist4
+				}
+				else_if = {
+					limit = { nationalist > 0.599 }
+					add_ideas = fourth_estate_nationalist5
+				}
+			}
+			if = {
+				limit = { has_government = monarchist }
+				if = {
+					limit = { monarchist < 0.30 }
+					add_ideas = fourth_estate_monarchist1
+				}
+				else_if = {
+					limit = { monarchist < 0.40 }
+					add_ideas = fourth_estate_monarchist2
+				}
+				else_if = {
+					limit = { monarchist < 0.50 }
+					add_ideas = fourth_estate_monarchist3
+				}
+				else_if = {
+					limit = { monarchist < 0.60 }
+					add_ideas = fourth_estate_monarchist4
+				}
+				else_if = {
+					limit = { monarchist > 0.599 }
+					add_ideas = fourth_estate_monarchist5
+				}
+			}
+			if = {
+				limit = { has_government = reactionary }
+				if = {
+					limit = { reactionary < 0.30 }
+					add_ideas = fourth_estate_reactionary1
+				}
+				else_if = {
+					limit = { reactionary < 0.40 }
+					add_ideas = fourth_estate_reactionary2
+				}
+				else_if = {
+					limit = { reactionary < 0.50 }
+					add_ideas = fourth_estate_reactionary3
+				}
+				else_if = {
+					limit = { reactionary < 0.60 }
+					add_ideas = fourth_estate_reactionary4
+				}
+				else_if = {
+					limit = { reactionary > 0.599 }
+					add_ideas = fourth_estate_reactionary5
+				}
+			}
+			if = {
+				limit = { has_government = conservative }
+				if = {
+					limit = { conservative < 0.30 }
+					add_ideas = fourth_estate_conservative1
+				}
+				else_if = {
+					limit = { conservative < 0.40 }
+					add_ideas = fourth_estate_conservative2
+				}
+				else_if = {
+					limit = { conservative < 0.50 }
+					add_ideas = fourth_estate_conservative3
+				}
+				else_if = {
+					limit = { conservative < 0.60 }
+					add_ideas = fourth_estate_conservative4
+				}
+				else_if = {
+					limit = { conservative > 0.599 }
+					add_ideas = fourth_estate_conservative5
+				}
+			}
+			if = {
+				limit = { has_government = market_liberal }
+				if = {
+					limit = { market_liberal < 0.30 }
+					add_ideas = fourth_estate_market_liberal1
+				}
+				else_if = {
+					limit = { market_liberal < 0.40 }
+					add_ideas = fourth_estate_market_liberal2
+				}
+				else_if = {
+					limit = { market_liberal < 0.50 }
+					add_ideas = fourth_estate_market_liberal3
+				}
+				else_if = {
+					limit = { market_liberal < 0.60 }
+					add_ideas = fourth_estate_market_liberal4
+				}
+				else_if = {
+					limit = { market_liberal > 0.599 }
+					add_ideas = fourth_estate_market_liberal5
+				}
+			}
+			if = {
+				limit = { has_government = social_liberal }
+				if = {
+					limit = { social_liberal < 0.30 }
+					add_ideas = fourth_estate_social_liberal1
+				}
+				else_if = {
+					limit = { social_liberal < 0.40 }
+					add_ideas = fourth_estate_social_liberal2
+				}
+				else_if = {
+					limit = { social_liberal < 0.50 }
+					add_ideas = fourth_estate_social_liberal3
+				}
+				else_if = {
+					limit = { social_liberal < 0.60 }
+					add_ideas = fourth_estate_social_liberal4
+				}
+				else_if = {
+					limit = { social_liberal > 0.599 }
+					add_ideas = fourth_estate_social_liberal5
+				}
+			}
+			if = {
+				limit = { has_government = social_democrat }
+				if = {
+					limit = { social_democrat < 0.30 }
+					add_ideas = fourth_estate_social_democrat1
+				}
+				else_if = {
+					limit = { social_democrat < 0.40 }
+					add_ideas = fourth_estate_social_democrat2
+				}
+				else_if = {
+					limit = { social_democrat < 0.50 }
+					add_ideas = fourth_estate_social_democrat3
+				}
+				else_if = {
+					limit = { social_democrat < 0.60 }
+					add_ideas = fourth_estate_social_democrat4
+				}
+				else_if = {
+					limit = { social_democrat > 0.599 }
+					add_ideas = fourth_estate_social_democrat5
+				}
+			}
+			if = {
+				limit = { has_government = progressive }
+				if = {
+					limit = { progressive < 0.30 }
+					add_ideas = fourth_estate_progressive1
+				}
+				else_if = {
+					limit = { progressive < 0.40 }
+					add_ideas = fourth_estate_progressive2
+				}
+				else_if = {
+					limit = { progressive < 0.50 }
+					add_ideas = fourth_estate_progressive3
+				}
+				else_if = {
+					limit = { progressive < 0.60 }
+					add_ideas = fourth_estate_progressive4
+				}
+				else_if = {
+					limit = { progressive > 0.599 }
+					add_ideas = fourth_estate_progressive5
+				}
+			}
+			if = {
+				limit = { has_government = democratic_socialist }
+				if = {
+					limit = { democratic_socialist < 0.30 }
+					add_ideas = fourth_estate_democratic_socialist1
+				}
+				else_if = {
+					limit = { democratic_socialist < 0.40 }
+					add_ideas = fourth_estate_democratic_socialist2
+				}
+				else_if = {
+					limit = { democratic_socialist < 0.50 }
+					add_ideas = fourth_estate_democratic_socialist3
+				}
+				else_if = {
+					limit = { democratic_socialist < 0.60 }
+					add_ideas = fourth_estate_democratic_socialist4
+				}
+				else_if = {
+					limit = { democratic_socialist > 0.599 }
+					add_ideas = fourth_estate_democratic_socialist5
+				}
+			}
+			if = {
+				limit = { has_government = communist }
+				if = {
+					limit = { communist < 0.30 }
+					add_ideas = fourth_estate_communist1
+				}
+				else_if = {
+					limit = { communist < 0.40 }
+					add_ideas = fourth_estate_communist2
+				}
+				else_if = {
+					limit = { communist < 0.50 }
+					add_ideas = fourth_estate_communist3
+				}
+				else_if = {
+					limit = { communist < 0.60 }
+					add_ideas = fourth_estate_communist4
+				}
+				else_if = {
+					limit = { communist > 0.599 }
+					add_ideas = fourth_estate_communist5
+				}
+			}
+		}
+	}
+}
+
+# Written by E. Wolfe #
+
+# After Peace Conference, suggest unification
+country_event = {
+	id = political.100
+	title = political.100.t
+	desc = political.100.desc
+
+	picture = GFX_report_event_political_gathering
+	is_triggered_only = yes 
+	trigger = {
+		is_subject = no
+		NOT = { has_country_flag = yes_to_unification_flag }
+		NOT = { has_country_flag = no_to_unification_flag }
+		any_country_with_original_tag = {
+			original_tag_to_check = ROOT
+			NOT = { tag = ROOT }
+			is_subject = no
+			has_similar_form_of_government = yes
+			has_war = no
+		}
+	}
+	
+	immediate = {
+		# LOG = "[ROOT.GetLeader]'s [ROOT.GetName] got event" #TODO_TA Remove logging
+		IF = {
+			limit = {
+				has_global_flag = global_unification_request_sent_flag
+			}
+			clr_global_flag = global_unification_request_sent_flag
+		}
+	}
+
+	option = {
+		name = political.100.a
+		set_country_flag = yes_to_unification_flag
+		clr_country_flag = unification_request_sent_flag 
+	}
+	option = {
+		name = political.100.b
+		ai_chance = {
+			base = 0
+		}
+		set_country_flag = no_to_unification_flag 
+		clr_country_flag = unification_request_sent_flag
+	}
+}
+
+# Unification event
+country_event = {
+	id = political.101
+	title = political.101.t
+	desc = political.101.desc
+
+	picture = GFX_report_event_political_gathering
+
+	trigger = {
+		is_subject = no
+		has_country_flag = yes_to_unification_flag
+		any_other_country = {
+			NOT = { tag = ROOT }
+			original_tag = ROOT
+			has_country_flag = yes_to_unification_flag
+			is_subject = no
+			has_similar_form_of_government = yes
+			has_war = no
+		}
+		NOT = {
+			any_other_country = {
+				original_tag = ROOT
+				has_similar_form_of_government = yes
+				has_country_flag = unification_request_sent_flag
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	immediate = {
+		# LOG = "[ROOT.GetLeader]'s [ROOT.GetName] to unify countries" #TODO_TA Remove logging
+
+	}
+
+	option = {
+		name = political.101.a
+		trigger = {
+			ROOT = { is_ai = no }
+		}
+		clr_country_flag = yes_to_unification_flag 
+		clr_country_flag = unification_request_sent_flag
+		#log = "Player ROOT [ROOT.GetName] to annex"
+		every_other_country = {
+			limit = {
+				original_tag = ROOT
+				has_country_flag = yes_to_unification_flag
+				is_subject = no
+				has_similar_form_of_government = yes
+				has_war = no
+			}
+			clr_country_flag = yes_to_unification_flag
+			ROOT = { annex_country = { target = PREV transfer_troops = yes } }
+		}
+		news_event = {
+			id = generic_political_news.1
+			hours = 8 
+			random_hours = 8 
+		}
+	}
+	option = {
+		name = political.101.b
+		trigger = {
+			ROOT = { is_ai = yes }
+		}
+		IF = {
+			limit = {
+				any_other_country = {
+					NOT = { tag = ROOT }
+					original_tag = ROOT
+					has_country_flag = yes_to_unification_flag
+					is_subject = no
+					has_similar_form_of_government = yes
+					has_war = no
+					is_ai = no 
+				}
+			}
+			log = "ai ROOT - Human player [ROOT.GetName] to annex"
+			random_other_country = {
+				limit = { 
+					NOT = { tag = ROOT }
+					original_tag = ROOT
+					has_country_flag = yes_to_unification_flag
+					is_subject = no
+					has_similar_form_of_government = yes
+					has_war = no
+					is_ai = no 
+				}
+				clr_country_flag = yes_to_unification_flag 
+				clr_country_flag = unification_request_sent_flag
+				every_other_country = {
+					limit = { 
+						original_tag = ROOT
+						has_country_flag = yes_to_unification_flag
+						is_subject = no
+						has_similar_form_of_government = yes
+						has_war = no
+					}
+					clr_country_flag = yes_to_unification_flag
+					PREV = { annex_country = { target = PREV transfer_troops = yes } }
+				}
+				news_event = {
+					id = generic_political_news.1
+					hours = 8 
+					random_hours = 8 
+				}
+			}
+		}
+		ELSE = {
+			#log = "AI ROOT [ROOT.GetName] to annex"
+			clr_country_flag = yes_to_unification_flag 
+			clr_country_flag = unification_request_sent_flag
+			every_other_country = {
+				limit = {
+					original_tag = ROOT
+					has_country_flag = yes_to_unification_flag
+					is_subject = no
+					has_similar_form_of_government = yes
+					has_war = no
+				}
+				clr_country_flag = yes_to_unification_flag
+				ROOT = { annex_country = { target = PREV transfer_troops = yes } }
+			}
+			news_event = {
+				id = generic_political_news.1
+				hours = 8 
+				random_hours = 8 
+			}
+		}
+	}
+}
+
+### Country reunited
+news_event = {
+	id = generic_political_news.1
+	title = generic_political_news.1.t
+	desc = generic_political_news.1.desc
+	picture = GFX_news_event_political_assembly
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = generic_political_news.1.a
+		trigger = {
+			original_tag = ROOT
+			NOT = { has_government = ROOT }
+		}
+	}
+	option = {
+		name = generic_political_news.1.b
+		trigger = {
+			original_tag = ROOT
+			has_government = ROOT
+		}
+	}
+	option = {
+		name = generic_political_news.1.c
+		trigger = {
+			NOT = {
+				original_tag = ROOT
+			}
+		}
+	}
+}

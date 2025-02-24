@@ -1,0 +1,27 @@
+#african_union_decisions = {
+#	icon = african_union
+#
+#	available = {
+#		always = yes
+#	}
+#}
+
+#arab_league_decisions = {
+#	icon = politics
+#
+#	available = {
+#		always = yes
+#	}
+#}
+
+international_organisations = {
+	available = {
+		always = yes
+	}
+}
+european_union_decisions = {
+	visible = {
+		is_EU_member = yes
+	}
+	visible_when_empty = yes
+}

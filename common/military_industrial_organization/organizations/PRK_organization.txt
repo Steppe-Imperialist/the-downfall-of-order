@@ -1,0 +1,81 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+ PRK_pyongyan_tank_arsenal_organization = {
+	include = generic_tank_organization
+	icon = GFX_idea_generic_tank_manufacturer_1
+
+	allowed = {	
+		OR = {
+			tag = PRK
+		}
+	}
+}
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+PRK_sungri_motor_plant_organization = {
+	include = generic_motorized_mechanized_organization
+	icon = GFX_idea_generic_motorized_equipment_manufacturer_2
+
+	allowed = {	
+		OR = {
+			tag = PRK
+		}
+	}
+}
+PRK_nogeneralplant_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_generic_infantry_equipment_manufacturer_1
+
+	allowed = {	
+		OR = {
+			tag = PRK
+		}
+	}
+}
+PRK_jangjaganmachinery_organization = {
+	include = generic_artillery_organization
+	icon = GFX_idea_generic_artillery_manufacturer_1
+
+	allowed = {	
+		OR = {
+			tag = PRK
+		}
+	}
+}
